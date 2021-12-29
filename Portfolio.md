@@ -98,12 +98,16 @@ This chapter will cover the required criteria as stated in the evaluation rubric
 The word document was used for everyone to describe their work in the last weeks. The Images folder was used to add visuals for the powerpoint. I found this structure to be the most clear and easy to use when working on this group project.
 <details>
   <summary><i>Example 1</i></summary>
-  ![Example 1](Presentations/Structure/Example_1.png "Example 1")
+  ![Example 1](Presentations/Structure/Example_1.png "Example 1")  
+
+  **Back-up:** [*Example_1*](Presentations/Structure/Example_1.png)
 </details>
 
 <details>
   <summary><i>Example 2</i></summary>
-  ![Example 1](Presentations/Structure/Example_2.png "Example 2")
+  ![Example 1](Presentations/Structure/Example_2.png "Example 2")  
+
+  **Back-up:** [*Example_2*](Presentations/Structure/Example_2.png)
 </details>
 
 **Assisted in preperation:**
