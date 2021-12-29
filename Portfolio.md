@@ -49,8 +49,8 @@ This chapter will cover the required criteria as stated in the evaluation rubric
 12. [**Exploratory Data Analysis in Python**](https://www.datacamp.com/statement-of-accomplishment/course/eba7ce278a04f06ff54a12d224ec07da44e57c74)
 13. [**Manipulating Time Series Data in Python**](https://www.datacamp.com/statement-of-accomplishment/course/4408c464b2f72c80b251a7dd9283d78904d9365a)
 14. [**Time Series Analysis in Python**](https://www.datacamp.com/statement-of-accomplishment/course/b2116ff973d5f0d97520a8415189bca1db44879a)
-15. [**Joining Data with pandas TBD!!**](/Datacamp%20Certificates%20Backup/Progress_Joining_Data_with_pandas.png)
-16. [**Machine Learning for Time Series Data in Python TBD!!**](/Datacamp%20Certificates%20Backup/Machine%20Learning%20for%20Time%20Sereis%20Data%20in%20Python.png)
+15. [**Joining Data with pandas**](/Datacamp%20Certificates%20Backup/Progress_Joining_Data_with_pandas.png)
+16. [**Machine Learning for Time Series Data in Python**](/Datacamp%20Certificates%20Backup/Machine%20Learning%20for%20Time%20Sereis%20Data%20in%20Python.png)
 
 [*Back up of certificates*](/Datacamp%20Certificates%20Backup/)
 
@@ -131,7 +131,7 @@ permission to include their feedback in this portfolio.
 
 <details>
   <summary>Albert Corson</summary>
-  
+
   **What went well:**    
 
   - Willing to work  
