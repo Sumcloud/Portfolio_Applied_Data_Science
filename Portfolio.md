@@ -48,9 +48,11 @@ This chapter will cover the required criteria as stated in the evaluation rubric
 11. [**Data Manipulation with pandas**](https://www.datacamp.com/statement-of-accomplishment/course/4b4119271c4d139e096e13c65fa9ed8364185db5)
 12. [**Exploratory Data Analysis in Python**](https://www.datacamp.com/statement-of-accomplishment/course/eba7ce278a04f06ff54a12d224ec07da44e57c74)
 13. [**Manipulating Time Series Data in Python**](https://www.datacamp.com/statement-of-accomplishment/course/4408c464b2f72c80b251a7dd9283d78904d9365a)
-14. [**Time Series in Python TBD!!**]()
-15. [**Joining Data with pandas TBD!!**]()
-16. [**Machine Learning for Time Series Data in Python TBD!!**]()
+14. [**Time Series Analysis in Python**](https://www.datacamp.com/statement-of-accomplishment/course/b2116ff973d5f0d97520a8415189bca1db44879a)
+15. [**Joining Data with pandas TBD!!**](/Datacamp%20Certificates%20Backup/Progress_Joining_Data_with_pandas.png)
+16. [**Machine Learning for Time Series Data in Python TBD!!**](/Datacamp%20Certificates%20Backup/Machine%20Learning%20for%20Time%20Sereis%20Data%20in%20Python.png)
+
+[*Back up of certificates*](/Datacamp%20Certificates%20Backup/)
 
 [*Back to table of contents*](#table-of-contents)
 <br></br>
@@ -117,7 +119,8 @@ The word document was used for everyone to describe their work in the last weeks
 
 
 # Feedback
-As a group we forgot to make use of the 360 degree feedback tool. To make up for this I decided to ask for feedback on personal performance for this portfolio. **NOTE!** I did get permission to include their feedback in this portfolio.
+As a group we forgot to make use of the 360 degree feedback tool. To make up for this I decided to ask for feedback on personal performance for this portfolio. **NOTE!:** I did get 
+permission to include their feedback in this portfolio.
 
 ## Feedback from others
 
@@ -129,6 +132,13 @@ As a group we forgot to make use of the 360 degree feedback tool. To make up for
 <details>
   <summary>Albert Corson</summary>
   
+  **What went well:**    
+
+  - Willing to work  
+  
+  **What could be improved:**   
+
+  - Coordination/Communication
 </details>
 
 <details>
