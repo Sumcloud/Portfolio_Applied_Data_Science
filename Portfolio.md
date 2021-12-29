@@ -18,18 +18,22 @@
   - [Evaluation on the group project as a whole](#evaluation-on-the-group-project-as-a-whole)
 - [About the project](#about-the-project)
 - [**Subject #1:** Research project](#subject-1-research-project)
+  - [Research questions](#research-questions)
+    - [Why research questions were chosen](#why-research-questions-were-chosen)
+  - [Conclusion of the research project](#conclusion-of-the-research-project)
+  - [Further research](#further-research)
+  - [JiRa sprints](#jira-sprints)
 - [**Subject #2:** Domain Knowledge](#subject-2-domain-knowledge)
   - [Introduction for imputing time series data](#introduction-for-imputing-time-series-data)
   - [Terminology explained](#terminology-explained)
-  - [Sources used for learning about subject](#sources-used-for-learning-about-subject)
+  - [Sources used for learning about Imputation](#sources-used-for-learning-about-imputation)
 - [**Subject #3:** Data Preprocessing](#subject-3-data-preprocessing)
+  - [Visualizations](#visualizations)
 - [**Subject #4:** Communication](#subject-4-communication)
   - [Presentations](#presentations)
 - [Feedback](#feedback)
   - [Feedback from others](#feedback-from-others)
   - [Feedback for others](#feedback-for-others)
-  - [Personal Feedback](#personal-feedback)
-- [Final Impression](#final-impression)
 
 # Mandatory requirements
 
@@ -82,6 +86,18 @@ This chapter will cover the required criteria as stated in the evaluation rubric
 
 # **Subject #1:** Research project
 
+## Research questions
+
+### Why research questions were chosen  
+
+## Conclusion of the research project
+
+## Further research
+
+## JiRa sprints  
+
+[***List of studies read and used during project***](/Research%20Project/Research/Studies_found_and_used_formatted.docx)
+
 # **Subject #2:** Domain Knowledge
 
 ## Introduction for imputing time series data
@@ -100,9 +116,12 @@ This chapter will cover the required criteria as stated in the evaluation rubric
 |  | |
 |  | |
 
-## Sources used for learning about subject
+## Sources used for learning about Imputation
+
 
 # **Subject #3:** Data Preprocessing
+
+## Visualizations
 
 # **Subject #4:** Communication
 
@@ -209,29 +228,33 @@ permission to include their feedback in this portfolio.
 <details>
   <summary>Jesús Martínez De Juan</summary>
 
-  **+** Adept
-  **-** Was hard to communicate and coordinate with
-  **-** Was passive during meetings
+  **+** Adept  
+  **-** Was hard to communicate and coordinate with  
+  **-** Was passive during meetings  
   
-  **Explanation:** To be honest I haven't worked with Jesús much because he was largely focused on Neural Networks from the start of the project. During meetings he didn't add much and needed to be asked in order to contribute.
+  **Explanation:** To be honest I haven't worked with Jesús much because he was largely focused on Neural Networks from the start of the project. During meetings he didn't add much and needed to be asked in order to contribute.  
 </details>
 
 <details>
-  <summary>Michael Weij </summary>
-  **+** 
+  <summary>Michael Weij </summary>  
+
+  **+** Good communication  
+  **+** Good attitude  
+  **-** Could have helped with Research    
+
+  **Explanation**
+  Michael and I haven't worked on the same taks during the project so I can't speak to the indiviudual quality of work aside from the LaTeX format due to his work being largely collaborative. I found his attitude during the project to be sharp and his punctuality for deadlines to gives me the same feeling.
+
 </details>
 
 <details>
   <summary>Ramon van der Elst </summary>  
 
-  **+** Good at presenting especially the external presentations
+  **+** Good at presenting especially the external presentations  
   **+** Good critical feedback on paper  
-  **-** Didn't ask for help
+  **-** Didn't ask for help  
   **-** Passive during meetings group only and with teachers
 
   **Explanation:** Ramon's part for this project was writing the paper and researching previous studies to make writing the paper and the research process easier. During the last month a lot had to be done on his earliest draft of the paper, due to the fact that he had never asked for feedback from us or the teachers. The research he did also didn't overlap quite well to what was required in terms of technical aspects of the paper. This was largely due to him not asking questions for technical processes that the other group members were working on. This also showed in his paper where some clear misconceptions and lack knowledge of ongoing technical processes were apparent. In the last weeks I rewrote his first version and added some papers that I found during research. His feedback has been important for the improvement of the paper and his presentation skills were also a big help to communicating the goals, processes and results of our research. 
 </details>
 
-## Personal Feedback
-
-# Final Impression 
