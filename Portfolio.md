@@ -15,17 +15,14 @@
   - [Datacamp certificates](#datacamp-certificates)
   - [Reflection on group project contributions](#reflection-on-group-project-contributions)
     - [Personal STARR-based reflection on writing the paper <br></br>](#personal-starr-based-reflection-on-writing-the-paper-br)
-  - [## Reflection on own learning objectives](#-reflection-on-own-learning-objectives)
-    - [STARR-based reflection on learning objectives<br></br>](#starr-based-reflection-on-learning-objectivesbr)
-  - [## Evaluation of the group project](#-evaluation-of-the-group-project)
+  - [Reflection on own learning objectives](#reflection-on-own-learning-objectives)
+    - [STARR-based reflection on learning objectives](#starr-based-reflection-on-learning-objectives)
+  - [Evaluation of the group project](#evaluation-of-the-group-project)
     - [STARR-based reflection on taking more of a leadership role in the last weeks<br></br>](#starr-based-reflection-on-taking-more-of-a-leadership-role-in-the-last-weeksbr)
-- [About the project](#about-the-project)
 - [**Subject #1:** Research project](#subject-1-research-project)
-  - [Research questions](#research-questions)
-    - [Why research questions were chosen](#why-research-questions-were-chosen)
   - [Conclusion of the research project](#conclusion-of-the-research-project)
   - [Further research](#further-research)
-  - [JiRa sprints](#jira-sprints)
+  - [Planning](#planning)
 - [**Subject #2:** Domain Knowledge](#subject-2-domain-knowledge)
   - [Introduction for imputing time series data](#introduction-for-imputing-time-series-data)
   - [Terminology explained](#terminology-explained)
@@ -34,7 +31,7 @@
   - [Visualizations](#visualizations)
 - [**Subject #4:** Communication](#subject-4-communication)
   - [Presentations](#presentations)
-  - [## Writing the paper](#-writing-the-paper)
+  - [Writing the paper](#writing-the-paper)
 - [Feedback](#feedback)
   - [Feedback from others](#feedback-from-others)
   - [Feedback for others](#feedback-for-others)
@@ -129,6 +126,7 @@ Because we started too late with writing the paper I had to spend a lot of the C
 
 
 ## Reflection on own learning objectives  
+
 ---
 I wanted to use this minor to get an introduction into data science so that I could get an impression if it is truly something that interests me. I had no specific learning objective in mind when starting the minor but during the minor I developed a couple of personal goals:
 1. Writing and submitting an official research paper
@@ -142,7 +140,11 @@ of writing a paper and feedback given by teachers and Mr. Baldiri Salcedo Rahola
 I had used Python before as a quick scripting language for formatting documents or quick calculations but it never got much deeper than that. Through the datacamp courses I got a way more in depth comprehension of Python programming. Utilizing Pandas to manipulate DataFrame and generating detailed visuals based on data has been a definite highlight for me as that has been something I wanted to do for some time.
 
 Learning how to generate visualizations and make/support conclusion based on them was something that I definitely wanted to improve on during this semester. Learning about them in the lectures and datacamp courses and applying them in a group project is a skill that will be an asset for later. 
-### STARR-based reflection on learning objectives<br></br>
+  
+<br></br>    
+
+### STARR-based reflection on learning objectives  
+
 
 **Situation:**  
 After the pipleline was done running and evaluating the selected imputation methods we were left with an excel file filled with performance metrics. These results needed to be properly studied to draw sound conclusions for our research paper. To support decisions made visualizations were also required to back up the conclusions.  
@@ -160,7 +162,8 @@ The actions taken resulted in the conclusion of the paper, I personally find tha
 If I had more time I would have liked to have gotten more feedback on the visualizations included in the paper.  <br></br>
 
 
-## Evaluation of the group project 
+## Evaluation of the group project    
+
 --- 
 
 
@@ -191,21 +194,47 @@ Clearer coordination in the last few weeks which allowed us to have a better ide
 **Reflection:**  
 I should have started being more assertive earlier on the project. I think it would have improved communication of what needed to be done and perhaps balanced the workload a bit more. As a group I think we should have checked up on each others work more so that the improvements in work down were more gradual. 
 
-# About the project
 
-# **Subject #1:** Research project
+# **Subject #1:** Research project  
 
-## Research questions
+The imputation research project is a project which purpose was to create a guideline for imputing Building management(BMS) time series data. The client for this project was the research group Energy in Transistion (EiT), a research group from THUAS. EiT provided us with a dataset of BMS data of 120 houses during 2019 built by Factory Zero. During the project we had constant contact with a researcher from the group, Mr. Baldiri Salcedo Rahola.
 
-### Why research questions were chosen  
+BMS's record values at a five minute interval but due to sensor or data storage error these values can be lost. These losses can create inconsistencies down the line in applications that make use of the data generated by these BMS's an example of this forecasting which has been proven to perform worse when making use of incomplete data sets.
+
+From preliminary research and talking to the client and teachers we quickly realized that there probably wouldn't be one method fits all solution. Which is why it was decided to form a guideline of specific methods to use in certain scenarios. This lead us to the following questions:
+
+**Main-question:**
+ - Which imputation techniques should be applied for data imputation in building energy time series data?
+
+**Sub-questions:**
+  1. What imputation methods are known for imputing time-series data?
+  2. Which imputation methods are best suited for what gap sizes
+  3. What imputation methods are best suited for which types of data?
+
+From research done in the first weeks of the project we found that some methods will most likely perform better on certain dataclassifications. Gap size also seemed to matter due to some methods having a bigger bias in larger gaps.  
+
+In the final paper our main question was answered by creating a guideline for which imputation method to use in what scenario. Sub question was not included in in the paper but was certainly used whilst researching. This research resulted in the methods evaluated in the end. 
 
 ## Conclusion of the research project
 
 ## Further research
+This research project only evaluated imputation methods on known evaluation metrics and if they could follow a trend in data or not. Further research should focus on evaluating the imputation methods performance based on the impact of forecasting data with the imputed values.
 
-## JiRa sprints  
+Another interesting angle to building upon this paper would be creating a more generic plug 'n play model. Guidelines are a good start but making a model that says this method is the best in scenario X and applies said method automatically would be the next step.
 
-[***List of studies read and used during project***](/Research%20Project/Research/Studies_found_and_used_formatted.docx)
+## Planning
+At the start of the project we made a verbal agreement on what to finish when. Our goal was to present the research phases during the external presentations but we deviated from that when it came into practice. During the first weeks we had meetings once or twice a week but later on we upped that to daily meetings.
+
+For visualizing our KANBAN board we made of use of JiRA. Tasks were added weekly on Thursdays after meeting together and with teachers and at the end of each sprint we added backlog tasks for the next one. We didn't do traditional retrospectives but at the end of each sprint (which was always a Thursday) we discussed what we had done and what needed extra attention for the next sprint.
+<details>
+  <summary>Jira Sprint example</summary>
+  <img src="Research%20Project/JiRa%20sprints/Sprint_6.png" alt="Sprint 6">
+
+  [Sprint backup image](/Research%20Project/JiRa%20sprints/Sprint_6.png)
+</details>
+
+[***List of studies read and used during project***](/Research%20Project/Research/Studies_found_and_used_formatted.docx)  <br></br> 
+
 
 # **Subject #2:** Domain Knowledge
 
@@ -253,14 +282,14 @@ I should have started being more assertive earlier on the project. I think it wo
 The word document was used for everyone to describe their work in the last weeks. The Images folder was used to add visuals for the powerpoint. I found this structure to be the most clear and easy to use when working on this group project.
 <details>
   <summary><i>Example 1</i></summary>
-  ![Example 1](Presentations/Structure/Example_1.png "Example 1")  
+  <img src="Presentations/Structure/Example_1.png" alt="Example 1">
 
   **Back-up:** [*Example_1*](Presentations/Structure/Example_1.png)
 </details>
 
 <details>
   <summary><i>Example 2</i></summary>
-  ![Example 1](Presentations/Structure/Example_2.png "Example 2")  
+  <img src="Presentations/Structure/Example_2.png" alt="Example 2">
 
   **Back-up:** [*Example_2*](Presentations/Structure/Example_2.png)
 </details>
@@ -270,7 +299,8 @@ The word document was used for everyone to describe their work in the last weeks
 
 [*Back to table of contents*](#table-of-contents)
 
-## Writing the paper
+## Writing the paper  
+
 ---  
 
 As stated in my learning objectives I wanted to create a paper based on our research and submit it to the CLIMA conference. I have both written the Research proposal and the final paper and asked for constant feedback on what can be improved.  
@@ -305,6 +335,7 @@ For the paper I wrote the following: Introduction, Abstract, Methodology (Except
 - [Document 1](Research%20Project/Research/Proof%20of%20work/Deprecated%20version.docx) time spent editing according to word [862 minutes](Research%20Project/Research/Proof%20of%20work/Editing%20time%20document%201.png)
 - [Document 2](Research%20Project/Research/Proof%20of%20work/Version%2028-12-2021%201400%20JUL.docx) time spent editing according to word [729 minutes](Research%20Project/Research/Proof%20of%20work/Editing%20time%20document%202.png)
 
+[Back to table of contents](#table-of-contents)
 
 <br></br>
 
@@ -404,3 +435,4 @@ permission to include their feedback in this portfolio.
   **Explanation:** Ramon's part for this project was writing the paper and researching previous studies to make writing the paper and the research process easier. During the last month a lot had to be done on his earliest draft of the paper, due to the fact that he had never asked for feedback from us or the teachers. The research he did also didn't overlap quite well to what was required in terms of technical aspects of the paper. This was largely due to him not asking questions for technical processes that the other group members were working on. This also showed in his paper where some clear misconceptions and lack knowledge of ongoing technical processes were apparent. In the last weeks I rewrote his first version and added some papers that I found during research. His feedback has been important for the improvement of the paper and his presentation skills were also a big help to communicating the goals, processes and results of our research. 
 </details>
 
+[Back to table of contents](#table-of-contents)
