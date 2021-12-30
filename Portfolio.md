@@ -24,7 +24,6 @@
   - [Further research](#further-research)
   - [Planning](#planning)
 - [**Subject #2:** Domain Knowledge](#subject-2-domain-knowledge)
-  - [Introduction for imputing time series data](#introduction-for-imputing-time-series-data)
   - [Terminology explained](#terminology-explained)
   - [Sources used for learning about Imputation](#sources-used-for-learning-about-imputation)
 - [**Subject #3:** Data Preprocessing](#subject-3-data-preprocessing)
@@ -238,7 +237,20 @@ For visualizing our KANBAN board we made of use of JiRA. Tasks were added weekly
 
 # **Subject #2:** Domain Knowledge
 
-## Introduction for imputing time series data
+This project was focussed on the imputation of missing time series data, specifically BMS time-series. BMS's generate a lot of data from various sensors some of its data includes: temperature, power usage, generated power and co2 level meassurements.
+
+Power usage is an especially hard field to impute due to its volatile nature. Meaning that power usage can suddenly go up or down if someone turns on a big appliance.  
+
+In previous literature we found that evaluating imputation was done by using the Root Mean Squared Error. In our preliminary (non-final) results we saw that the RMSE scores were quite high. On closer inspection of the data it was visible that some methods did predict trends but they were slighly later in time compared to the original.
+
+Whilst RMSE is common use to score accuracy in imputation for our study it was less viable as the average error was not our focus. That is not to say that RMSE is a useless metric, if an imputation method doesn't follow trends it will be visible in the RMSE as well. 
+
+For evaluation we also made use of statistics like the Skewness and Kurtosis to see how imputation impacted the distribution of the data. 
+
+**ADD A VISUAL HERE!  Either KURTOSIS AND SKEWNESS IN NORMAL DISTRIBUTION OR HISTOGRAM OF FREQUENCY OF MEASSUREMENTS**
+
+
+
 
 ## Terminology explained
 
@@ -247,15 +259,19 @@ For visualizing our KANBAN board we made of use of JiRA. Tasks were added weekly
 |----------|:-------------:|
 | Time series | text here!|
 | Mean Squared Error (MSE) | |
-|  | |
-|  | |
-|  | |
+| Imputation  | |
+| Kurtosis | |
+| Skewness | |
 |  | |
 |  | |
 |  | |
 
 ## Sources used for learning about Imputation
 
+*Literature used to learn about the domain imputation:*
+* [Flexible Imputation of Missing Data, Second edition by Stef van Buuren Online edition](https://stefvanbuuren.name/fimd/ch-introduction.html)
+
+*Similar previous research:*
 
 # **Subject #3:** Data Preprocessing
 

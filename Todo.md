@@ -11,3 +11,7 @@ Communication:
 Research project
 - Conclusions
 - Future works <- Is this still in-line with written in paper
+
+Domain Knowledge:
+- Is everything correct!
+- Do I want to add more links!
