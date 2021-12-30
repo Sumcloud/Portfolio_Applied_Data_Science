@@ -34,6 +34,7 @@
   - [Visualizations](#visualizations)
 - [**Subject #4:** Communication](#subject-4-communication)
   - [Presentations](#presentations)
+  - [## Writing the paper](#-writing-the-paper)
 - [Feedback](#feedback)
   - [Feedback from others](#feedback-from-others)
   - [Feedback for others](#feedback-for-others)
@@ -269,6 +270,25 @@ The word document was used for everyone to describe their work in the last weeks
 
 [*Back to table of contents*](#table-of-contents)
 
+## Writing the paper
+---  
+
+As stated in my learning objectives I wanted to create a paper based on our research and submit it to the CLIMA conference. I have both written the Research proposal and the final paper and asked for constant feedback on what can be improved.  
+
+**Research Proposal:**  
+To get on the same line with each other in the group and with the client and teachers a research proposal was created. During the project we deviated from some of the outlines in the proposal but I see that as only natural due to it being very early on in this minor. 
+
+***Proof of work:***
+- Research proposal document [(link)](Research%20project/Research%Project/Research%Proposal/Research_proposal_Applied_Data_Science_project_IMP.docx)
+- Editing history of the research proposal
+  - [Screen shot 1 VSC](Research%20Project/Research%20Proposal/Version%20History/Version_History_October%203-14.png) , 
+  [Screen shot 2 VSC](Research%20Project/Research%20Proposal/Version%20History/Version_History_September%2023_October_2.png)
+- To see version history of the research proposal go to Google docs [(->link<-)](https://docs.google.com/document/d/1RehSUVk_NFjkZ0QC1pMuIAnE69TpEE6o0C73XAbNcgM/edit?usp=sharing) and go to: 
+  file>version history>see version history
+
+**Reseach paper:**
+
+<br></br>
 
 # Feedback
 As a group we forgot to make use of the 360 degree feedback tool. To make up for this I decided to ask for feedback on personal performance for this portfolio. **NOTE!:** I did get 
