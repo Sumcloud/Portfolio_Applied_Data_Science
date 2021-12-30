@@ -14,8 +14,11 @@
 - [Mandatory requirements](#mandatory-requirements)
   - [Datacamp certificates](#datacamp-certificates)
   - [Reflection on group project contributions](#reflection-on-group-project-contributions)
-  - [Reflection on own learning objectives](#reflection-on-own-learning-objectives)
-  - [Evaluation on the group project as a whole](#evaluation-on-the-group-project-as-a-whole)
+    - [Personal STARR-based reflection on writing the paper <br></br>](#personal-starr-based-reflection-on-writing-the-paper-br)
+  - [## Reflection on own learning objectives](#-reflection-on-own-learning-objectives)
+    - [STARR-based reflection on learning objectives<br></br>](#starr-based-reflection-on-learning-objectivesbr)
+  - [## Evaluation of the group project](#-evaluation-of-the-group-project)
+    - [STARR-based reflection on the group project<br></br>](#starr-based-reflection-on-the-group-projectbr)
 - [About the project](#about-the-project)
 - [**Subject #1:** Research project](#subject-1-research-project)
   - [Research questions](#research-questions)
@@ -70,17 +73,96 @@ This chapter will cover the required criteria as stated in the evaluation rubric
 
 ## Reflection on group project contributions  
 
----
+---  
 
+I didn't have a specific role in this project, I think I did a bit of everything during this project. For the research part of our project I worked on the research proposal and the final paper. I also added some of the imputation methods found in literature and datacamp to our projects e.g. regression and KNN. I didn't do much work on the pipeline architecture but I did add some visualizations to visualize the results.
+
+In the month of December my focus has been writing the paper. I wrote most of the paper myself and constantly asked group members and sometimes teacher for feedback to improve the paper.
+
+**Tasks I worked on:**
+
+*Research:*  
+- [Research proposal]()
+- [Research paper]()
+- [Studies read to familiarize myself with the field]()
+
+*Communication:*
+- [Internal presentation 8 November]()
+- [Internal presentation 6 December]()
+- [Internal presentation 20 December]()
+
+*Applying reseach/imputation methods:*
+- [Deterministic Regression]()
+- [Stochastic Regression]()
+- [KNN regression (algorithm)]()
+- [Forward filling]()
+- [MICE]()
+- [Random Imputation]()
+- [Imputation by mean]()
+- [Imputation by mode]()
+- [Imputation by median]()  
+
+*Visualizations:*
+- [Correlation Heatmap]()
+- [Missingno Matrix]()
+- [Value distribution histogram]() <br></br>
+### Personal STARR-based reflection on writing the paper <br></br>
+**Situation:**  
+Evaluate performance of imputation methods based 
+
+**Task:**
+
+**Action:**
+
+**Result:**
+
+**Reflection:**
 
 ## Reflection on own learning objectives  
-
 ---
+I wanted to use this minor to get an introduction into data science so that I could get an impression if it is truly something that interests me. I had no specific learning objective in mind when starting the minor but during the minor I developed a couple of personal goals:
+1. Writing and submitting an official research paper
+2. Competency in Python programming
+3. Using visualizations and data to draw and support sound conclusions
+
+I have written reseach reports and essays before but never a formatted research paper. During this semester I tried to build up to a well written paper that could be accepted at an official conference. I personally enjoy the process 
+of writing a paper and feedback given by teachers and Mr. Baldiri Salcedo Rahola
+(our client) has given me a better idea of how to write a paper.
+
+I had used Python before as a quick scripting language for formatting documents or quick calculations but it never got much deeper than that. Through the datacamp courses I got a way more in depth comprehension of Python programming. Utilizing Pandas to manipulate DataFrame and generating detailed visuals based on data has been a definite highlight for me as that has been something I wanted to do for some time.
+
+Learning how to generate visualizations and make/support conclusion based on them was something that I definitely wanted to improve on during this semester. Learning about them in the lectures and datacamp courses and applying them in a group project is a skill that will be an asset for later. 
+### STARR-based reflection on learning objectives<br></br>
+
+**Situation:**  
+After the pipleline was done running and evaluating the selected imputation methods we were left with an excel file filled with performance metrics. These results needed to be properly studied to draw sound conclusions for our research paper. To support decisions made visualizations were also required to back up the conclusions.  
+
+**Task:**  
+Make sound conclusions based on data and support them with visualizations.    
+
+**Action:**  
+I created visualizations that were made to support findings in the paper. Since it was a group project we made conclusions on the metrics together.
+
+**Result:**  
+The actions taken resulted in the conclusion of the paper, I personally find that the visuals created do support our findings.
+
+**Reflection:**  
+If I had more time I would have liked to have gotten more feedback on the visualizations included in the paper.  
 
 
-## Evaluation on the group project as a whole  
-
+## Evaluation of the group project 
 ---
+### STARR-based reflection on the group project<br></br>
+
+**Situation:**
+
+**Task:**
+
+**Action:**
+
+**Result:**
+
+**Reflection:**
 
 # About the project
 
