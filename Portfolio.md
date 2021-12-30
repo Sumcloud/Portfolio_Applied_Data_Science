@@ -18,7 +18,7 @@
   - [## Reflection on own learning objectives](#-reflection-on-own-learning-objectives)
     - [STARR-based reflection on learning objectives<br></br>](#starr-based-reflection-on-learning-objectivesbr)
   - [## Evaluation of the group project](#-evaluation-of-the-group-project)
-    - [STARR-based reflection on the group project<br></br>](#starr-based-reflection-on-the-group-projectbr)
+    - [STARR-based reflection on taking more of a leadership role in the last weeks<br></br>](#starr-based-reflection-on-taking-more-of-a-leadership-role-in-the-last-weeksbr)
 - [About the project](#about-the-project)
 - [**Subject #1:** Research project](#subject-1-research-project)
   - [Research questions](#research-questions)
@@ -106,17 +106,26 @@ In the month of December my focus has been writing the paper. I wrote most of th
 - [Correlation Heatmap]()
 - [Missingno Matrix]()
 - [Value distribution histogram]() <br></br>
+  
 ### Personal STARR-based reflection on writing the paper <br></br>
 **Situation:**  
-Evaluate performance of imputation methods based 
+In the month December I thought that we were further along with writing the paper than we actually were. Which created a time window of three weeks to write the paper from start to finish whilst still getting results from imputation. To constantly improve on writing feedback and questions meetings had to be planned frequently with the group and teachers.
 
-**Task:**
+Accompanying research for the paper was also in need of improvement to get a starting point for our paper.
 
-**Action:**
+**Task:**  
+Write the research paper and improve on it based on feedback given. Also support material with literature.
 
-**Result:**
+**Action:**  
+I started writing the paper on the third of december and did the required research for what I wrote. I finished a final version (before feedback) on the 31st of December and as a group we continued writing the missing parts on the 4th of January.
 
-**Reflection:**
+**Result:**  
+A formal paper written to communicate our research done during this project.
+
+**Reflection:**  
+Because we started too late with writing the paper I had to spend a lot of the Christmas break working on the paper. Due to difference in writing style and other people being busy I wrote the paper myself aside from individual piece for methods and feedback. If I had to do this over again I would be more inclusive with other people writing too. Aside from this I think that I communicated clearly to my group members as to what progress I made when writing the paper.
+
+
 
 ## Reflection on own learning objectives  
 ---
@@ -147,22 +156,39 @@ I created visualizations that were made to support findings in the paper. Since 
 The actions taken resulted in the conclusion of the paper, I personally find that the visuals created do support our findings.
 
 **Reflection:**  
-If I had more time I would have liked to have gotten more feedback on the visualizations included in the paper.  
+If I had more time I would have liked to have gotten more feedback on the visualizations included in the paper.  <br></br>
 
 
 ## Evaluation of the group project 
----
-### STARR-based reflection on the group project<br></br>
+--- 
 
-**Situation:**
 
-**Task:**
+Our group had people of various nationalities, which meant we had to communicate in English instead of Dutch. This was my first English project although I have written English reports before. Every group members English speaking abilities were great but it still felt hard at times to communicate specific parts of the project. Sometimes it felt in speaking and hearing that the semantics of what some was trying to say fell off which created some small inconsistencies in collaboration.
 
-**Action:**
+I think we all got along during this project and arguments we did have were solved in a mature manner. 
 
-**Result:**
 
-**Reflection:**
+
+### STARR-based reflection on taking more of a leadership role in the last weeks<br></br>
+
+**Situation:**  
+During the last weeks of the project we (project group) felt a bit aimless. Some group members weren't sure of what they should do and nor were they asking. We were stuck at evaluating which made writing the results hard and meant that progress halted on writing the paper. Exchange students were also back in their home countries. 
+
+**Task:**  
+Make sure everyone has a task to do and as a group check on their work so that finishing the paper is as smooth of a process as possible.
+
+**Action:**  
+Because I was writing the paper I did have the best overview on what had to be done to complete our research. When looking at JiRa and asking what people were working on I got an idea of what people were doing and who had time to do which task. To communicate my thoughts on what needs to be done and requests to who should do what I used our Whatsapp group. To make clear of what each task entailed I messaged people individually to give a more detailed insight of what needs to be done. 
+
+In the whatsapp group I also coordinated a couple of meeting in the latter half of the Christmas break during which we would finish the paper. Before each meeting I sent out a document containing agenda points of what needed to be done that day.
+
+[Example of a agenda point document](/Research%20Project/Agenda_points_for_jan_4th.docx)
+
+**Result:**  
+Clearer coordination in the last few weeks which allowed us to have a better idea of what needed to be done. The result is also a better paper because we all gave feedback on each others work.
+
+**Reflection:**  
+I should have started being more assertive earlier on the project. I think it would have improved communication of what needed to be done and perhaps balanced the workload a bit more. As a group I think we should have checked up on each others work more so that the improvements in work down were more gradual. 
 
 # About the project
 
