@@ -92,12 +92,12 @@ In the month of December my focus has been writing the paper. I wrote most of th
 *Applying reseach/imputation methods:*
 - [Deterministic Regression]()
 - [Stochastic Regression]()
-- [KNN regression (algorithm)]()
+- [KNN distance weighted regression (algorithm)](/Project%20Notebooks/KNN)
 - [Forward filling](/Project%20Notebooks/forward_fill.ipynb)
 - [Time optimized interpolation](Project%20Notebooks/time_interpolation.ipynb)
 - [Linear interpolation](Project%20Notebooks/linear_interpolation.ipynb)
-- [MICE]()
-- [Random Imputation]()
+- [Bayesian Ridge MICE](/Project%20Notebooks/bayesian_ridge_MICE.ipynb)
+- [ExtraTreesRegressor MICE](/Project%20Notebooks/missForest_regressor_MICE.ipynb)
 - [Imputation by mean](/Project%20Notebooks/mean_imputation.ipynb)
 - [Imputation by mode](/Project%20Notebooks/mode_imputation.ipynb)
 - [Imputation by median](/Project%20Notebooks/median_imputation.ipynb)  
@@ -395,7 +395,15 @@ permission to include their feedback in this portfolio.
 </details>
 
 <details>
-  <summary>Michael Weij </summary>
+  <summary>Michael Weij </summary>  
+
+  **+**  Julien took up to do most of the communication within the team which was really nice. Which made it easy to know what everybody was responsible for.  Because of that it was easy to work together.
+  
+  **-**  In the second half we decided to work more on site so we could finish the project in time. But most of the time you still decided to work from home. I think it was better for the project if you were more on site overall.  
+
+
+  **Explanation:** It was nice working with Julien he did everything he was said he was going to do and made sure everybody was on the right track.    
+
   
 </details>
 
