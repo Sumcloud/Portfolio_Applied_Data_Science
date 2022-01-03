@@ -103,9 +103,14 @@ In the month of December my focus has been writing the paper. I wrote most of th
 - [Imputation by median](/Project%20Notebooks/median_imputation.ipynb)  
 
 *Visualizations:*
-- [Correlation Heatmap]()
-- [Missingno Matrix]()
-- [Value distribution histogram]() <br></br>
+- [Missingno Matrix](/Project%20Notebooks/Visuals/missingno_matrix.ipynb)
+  - [Example](/Project%20Notebooks/Visuals/Images/Missingno_matrix_smartMeter_power_gap_type_5.png)
+- [RMSE for each method per gap](/Project%20Notebooks/Visuals/RMSE_per_gap.py)
+  - [Early example](/Project%20Notebooks/Visuals/Images/RMSE%20Graph_Flow_temp.png)
+- [Value distribution histogram](/Project%20Notebooks/Visuals/distribution_of_meassurements.ipynb)
+  - [Example](/Project%20Notebooks/Visuals/Images/Distribution_in_measurements_power_imputed_by_hot_deck_gap_type_5.png) 
+- [Change in Value Distribtuion histogram](/Project%20Notebooks/Visuals/change_in_distribution_histogram.ipynb)
+  - [Example](/Project%20Notebooks/Visuals/Images/Change_in_distribution_histogram_hotdeck_gap_size_5.png) <br></br>
   
 ### Personal STARR-based reflection on writing the paper <br></br>
 **Situation:**  
