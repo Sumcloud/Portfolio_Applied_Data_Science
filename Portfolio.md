@@ -84,20 +84,23 @@ In the month of December my focus has been writing the paper. I wrote most of th
 - [Studies read to familiarize myself with the field]()
 
 *Communication:*
-- [Internal presentation 8 November]()
-- [Internal presentation 6 December]()
-- [Internal presentation 20 December]()
+- [Internal presentation 8 November](/Presentations/Internal_November_8.pptx)
+- [Internal presentation 6 December](/Presentations/Internal_Week_6.pptx)
+- [Internal presentation 20 December](/Presentations/Internal_December_20.pptx)
+- [Preperation External Presentations](https://www.canva.com/design/DAEvc6PSrRc/QSvuCi_b7rpERo3q_xepXA/view?utm_content=DAEvc6PSrRc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
 *Applying reseach/imputation methods:*
 - [Deterministic Regression]()
 - [Stochastic Regression]()
 - [KNN regression (algorithm)]()
-- [Forward filling]()
+- [Forward filling](/Project%20Notebooks/forward_fill.ipynb)
+- [Time optimized interpolation](Project%20Notebooks/time_interpolation.ipynb)
+- [Linear interpolation](Project%20Notebooks/linear_interpolation.ipynb)
 - [MICE]()
 - [Random Imputation]()
-- [Imputation by mean]()
-- [Imputation by mode]()
-- [Imputation by median]()  
+- [Imputation by mean](/Project%20Notebooks/mean_imputation.ipynb)
+- [Imputation by mode](/Project%20Notebooks/mode_imputation.ipynb)
+- [Imputation by median](/Project%20Notebooks/median_imputation.ipynb)  
 
 *Visualizations:*
 - [Correlation Heatmap]()
@@ -258,12 +261,12 @@ For evaluation we also made use of statistics like the Skewness and Kurtosis to 
 | Term   |      Explanation| 
 |----------|:-------------:|
 | Time series | text here!|
-| Mean Squared Error (MSE) | |
+| Root Mean Squared Error (RMSE) | |
 | Imputation  | |
 | Kurtosis | |
 | Skewness | |
-|  | |
-|  | |
+| Missing At Random| |
+| Missing Not At Random| |
 |  | |
 
 ## Sources used for learning about Imputation
@@ -350,6 +353,7 @@ For the paper I wrote the following: Introduction, Abstract, Methodology (Except
 
 - [Document 1](Research%20Project/Research/Proof%20of%20work/Deprecated%20version.docx) time spent editing according to word [862 minutes](Research%20Project/Research/Proof%20of%20work/Editing%20time%20document%201.png)
 - [Document 2](Research%20Project/Research/Proof%20of%20work/Version%2028-12-2021%201400%20JUL.docx) time spent editing according to word [729 minutes](Research%20Project/Research/Proof%20of%20work/Editing%20time%20document%202.png)
+- [Document 3](/Research%20Project/Paper/Version%201-3-2022%2001-07%20JUL.docx)
 
 [Back to table of contents](#table-of-contents)
 
@@ -380,6 +384,13 @@ permission to include their feedback in this portfolio.
 
 <details>
   <summary>Jesús Martínez De Juan</summary>
+
+  **+** Good desire to work
+  **+** Some previous knowledges  
+  **+** Productivity even when Julien had to quarantine  
+  **-** Spending too much time in methods that didn't worked at the end (but we didn't know previously)  
+
+  **Explanation:** I'm glad to have worked with Julien and all the members of the group. He has always good willing to work and he took the lead in taking notes of all the meetings we had so we can have the main important points clearly.
   
 </details>
 
@@ -389,7 +400,12 @@ permission to include their feedback in this portfolio.
 </details>
 
 <details>
-  <summary>Ramon van der Elst </summary>
+  <summary>Ramon van der Elst </summary>  
+  
+  **+** Very communicative and clear throughout the project.  
+  **+** Took on a lot of work and with his perfectionistic approach showed some good results.  
+  **-** Sometimes takes on the work alone and should try to work together more often. 
+
   
 </details>
 
