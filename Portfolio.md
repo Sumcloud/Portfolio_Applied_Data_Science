@@ -74,7 +74,7 @@ This chapter will cover the required criteria as stated in the evaluation rubric
 
 I didn't have a specific role in this project, I think I did a bit of everything during this project. For the research part of our project I worked on the research proposal and the final paper. I also added some of the imputation methods found in literature and datacamp to our projects e.g. regression and KNN. I didn't do much work on the pipeline architecture but I did add some visualizations to visualize the results.
 
-In the month of December my focus has been writing the paper. I wrote most of the paper myself and constantly asked group members and sometimes teacher for feedback to improve the paper.
+In the later stages of the project my focus has been writing the paper. I wrote most of the paper myself and constantly asked group members and sometimes teacher for feedback to improve the paper.
 
 **Tasks I worked on:**
 
@@ -103,6 +103,9 @@ In the month of December my focus has been writing the paper. I wrote most of th
 - [Imputation by median](/Project%20Notebooks/median_imputation.ipynb)  
 
 *Visualizations:*
+- [Difference between original and imputed over gap](Project%20Notebooks/Visuals/Trends_diff.ipynb)
+  - [Example 1](Project%20Notebooks/Visuals/Images/Trend_difference_smartMeter_power_Hot_deck_gap_type_5_other_index.png)
+  - [Example 2](Project%20Notebooks/Visuals/Images/Trend_difference_smartMeter_power_Hot_deck_gap_type_5.png)
 - [Missingno Matrix](/Project%20Notebooks/Visuals/missingno_matrix.ipynb)
   - [Example](/Project%20Notebooks/Visuals/Images/Missingno_matrix_smartMeter_power_gap_type_5.png)
 - [RMSE for each method per gap](/Project%20Notebooks/Visuals/RMSE_per_gap.py)
