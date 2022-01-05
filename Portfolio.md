@@ -110,6 +110,7 @@ In the later stages of the project my focus has been writing the paper. I wrote 
   - [Example](/Project%20Notebooks/Visuals/Images/Missingno_matrix_smartMeter_power_gap_type_5.png)
 - [RMSE for each method per gap](/Project%20Notebooks/Visuals/RMSE_per_gap.py)
   - [Early example](/Project%20Notebooks/Visuals/Images/RMSE%20Graph_Flow_temp.png)
+- [Results loader a script to automate graphs from results](/Project%20Notebooks/Visuals/Results_Auto_Loader.py)
 - [Value distribution histogram](/Project%20Notebooks/Visuals/distribution_of_meassurements.ipynb)
   - [Example](/Project%20Notebooks/Visuals/Images/Distribution_in_measurements_power_imputed_by_hot_deck_gap_type_5.png) 
 - [Change in Value Distribtuion histogram](/Project%20Notebooks/Visuals/change_in_distribution_histogram.ipynb)
@@ -374,8 +375,14 @@ permission to include their feedback in this portfolio.
 ## Feedback from others
 
 <details>
-  <summary>Adrien Lucbert</summary>
-  
+  <summary>Adrien Lucbert</summary>  
+
+  **+** leader/coordinator behaviour  
+  **+** rigorous  
+  **-** uneven workload throughout the duration of the minor    
+
+  **explanation:** Juliën endured the scrum master role, he made sure everyone in the team communicated on what they were doing or had trouble with. He has been someone we could rely on to get the work done and was willing to tackle literature work, which allowed most of us to focus on the practical work. But I feel like he has been less present at times, and working too much at other times, especially at the end, which could sometimes be hard for him to handle.
+
 </details>
 
 <details>
