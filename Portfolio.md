@@ -90,6 +90,7 @@ In the later stages of the project my focus has been writing the paper. I wrote 
 - [Preperation External Presentations](https://www.canva.com/design/DAEvc6PSrRc/QSvuCi_b7rpERo3q_xepXA/view?utm_content=DAEvc6PSrRc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
 *Applying reseach/imputation methods:*
+- [Best correlator picker in Dataframe](/Project%20Notebooks/Best_Correlator_Picker.ipynb)
 - [Deterministic Regression]()
 - [Stochastic Regression]()
 - [KNN distance weighted regression (algorithm)](/Project%20Notebooks/KNN)
@@ -108,8 +109,10 @@ In the later stages of the project my focus has been writing the paper. I wrote 
   - [Example 2](Project%20Notebooks/Visuals/Images/Trend_difference_smartMeter_power_Hot_deck_gap_type_5.png)
 - [Missingno Matrix](/Project%20Notebooks/Visuals/missingno_matrix.ipynb)
   - [Example](/Project%20Notebooks/Visuals/Images/Missingno_matrix_smartMeter_power_gap_type_5.png)
-- [RMSE for each method per gap](/Project%20Notebooks/Visuals/RMSE_per_gap.py)
-  - [Early example](/Project%20Notebooks/Visuals/Images/RMSE%20Graph_Flow_temp.png)
+- [Evaluation criteria per gap per method in a grouped bar chart](/Project%20Notebooks/Visuals/RMSE_per_gap.py)
+  - [RMSE example](/Project%20Notebooks/Visuals/Images/Root%20Mean%20squared%20error_per_gap_co2sensor_co2_6_17_33_41.png)
+  - [Variation Error Example](/Project%20Notebooks/Visuals/Images/Absolute%20Variance%20error_per_gap_alklimaHeatPump_flow_temp_6_13_34_58.png)
+  - [Percent Bias Example](/Project%20Notebooks/Visuals/Images/Percent%20bias_per_gap_smartMeter_power_6_17_33_56.png)
 - [Results loader a script to automate graphs from results](/Project%20Notebooks/Visuals/Results_Auto_Loader.py)
 - [Value distribution histogram](/Project%20Notebooks/Visuals/distribution_of_meassurements.ipynb)
   - [Example](/Project%20Notebooks/Visuals/Images/Distribution_in_measurements_power_imputed_by_hot_deck_gap_type_5.png) 
@@ -224,7 +227,7 @@ From preliminary research and talking to the client and teachers we quickly real
 
 From research done in the first weeks of the project we found that some methods will most likely perform better on certain dataclassifications. Gap size also seemed to matter due to some methods having a bigger bias in larger gaps.  
 
-In the final paper our main question was answered by creating a guideline for which imputation method to use in what scenario. Sub question was not included in in the paper but was certainly used whilst researching. This research resulted in the methods evaluated in the end. 
+In the final paper our main question was answered by creating a guideline for which imputation method to use in what scenario. Subquestion #1 served as an orientation question to what method had precedent for imputing time series data. The second and third scenario form scenarios in which imputation takes place. Gap sizes vary in real data. This was mirrored in the artificial gaps to evaluate the performance on the various gap sizes present in data.
 
 ## Conclusion of the research project
 
@@ -363,6 +366,7 @@ For the paper I wrote the following: Introduction, Abstract, Methodology (Except
 - [Document 1](Research%20Project/Research/Proof%20of%20work/Deprecated%20version.docx) time spent editing according to word [862 minutes](Research%20Project/Research/Proof%20of%20work/Editing%20time%20document%201.png)
 - [Document 2](Research%20Project/Research/Proof%20of%20work/Version%2028-12-2021%201400%20JUL.docx) time spent editing according to word [729 minutes](Research%20Project/Research/Proof%20of%20work/Editing%20time%20document%202.png)
 - [Document 3](/Research%20Project/Paper/Version%201-3-2022%2001-07%20JUL.docx)
+- [Document 4](/Research%20Project/Paper/Version%201-5-2022.docx)
 
 [Back to table of contents](#table-of-contents)
 
