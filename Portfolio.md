@@ -109,7 +109,7 @@ In the later stages of the project my focus has been writing the paper. I wrote 
   - [Example 2](Project%20Notebooks/Visuals/Images/Trend_difference_smartMeter_power_Hot_deck_gap_type_5.png)
 - [Missingno Matrix](/Project%20Notebooks/Visuals/missingno_matrix.ipynb)
   - [Example](/Project%20Notebooks/Visuals/Images/Missingno_matrix_smartMeter_power_gap_type_5.png)
-- [Evaluation criteria per gap per method in a grouped bar chart](/Project%20Notebooks/Visuals/RMSE_per_gap.py)
+- [Evaluation criteria per gap per method in a grouped bar chart](/Project%20Notebooks/Visuals/criteria_grouped_bar_plotter.py)
   - [RMSE example](/Project%20Notebooks/Visuals/Images/Root%20Mean%20squared%20error_per_gap_co2sensor_co2_6_17_33_41.png)
   - [Variation Error Example](/Project%20Notebooks/Visuals/Images/Absolute%20Variance%20error_per_gap_alklimaHeatPump_flow_temp_6_13_34_58.png)
   - [Percent Bias Example](/Project%20Notebooks/Visuals/Images/Percent%20bias_per_gap_smartMeter_power_6_17_33_56.png)
