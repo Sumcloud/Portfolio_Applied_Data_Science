@@ -71,15 +71,14 @@ This chapter will cover the required criteria as stated in the evaluation rubric
 ## Reflection on group project contributions  
 
 ---  
+  
+I didn't have a specific role during this project, I think I did a bit of everything. When writing pieces for the research paper and proposal I took lead and my main focus has been on that in the early and late stages of the project. I didn't do much on the pipeline as that was mainly Adrien and Albert working on that. I did add imputation methods found in previous literature. To help visualize the evaluation metrics I did create visualizations to get a better insight into the performance. 
 
-I didn't have a specific role in this project, I think I did a bit of everything during this project. For the research part of our project I worked on the research proposal and the final paper. I also added some of the imputation methods found in literature and datacamp to our projects e.g. regression and KNN. I didn't do much work on the pipeline architecture but I did add some visualizations to visualize the results.
-
-In the later stages of the project my focus has been writing the paper. I wrote most of the paper myself and constantly asked group members and sometimes teacher for feedback to improve the paper.
 
 **Tasks I worked on:**
 
 *Research:*  
-- [Research proposal]()
+- [Research proposal](/Research%20Project/Research%20Proposal/Research_proposal_Applied_Data_Science_project_IMP.docx)
 - [Research paper]()
 - [Studies read to familiarize myself with the field]()
 
@@ -91,10 +90,9 @@ In the later stages of the project my focus has been writing the paper. I wrote 
 
 *Applying reseach/imputation methods:*
 - [Best correlator picker in Dataframe](/Project%20Notebooks/Best_Correlator_Picker.ipynb)
-- [Deterministic Regression]()
-- [Stochastic Regression]()
 - [KNN distance weighted regression (algorithm)](/Project%20Notebooks/KNN)
-- [Forward filling](/Project%20Notebooks/forward_fill.ipynb)
+  - [Example](/Project%20Notebooks/KNN/KNN_K=5.ipynb)
+- [Last Observation Carried Forward](/Project%20Notebooks/forward_fill.ipynb)
 - [Time optimized interpolation](Project%20Notebooks/time_interpolation.ipynb)
 - [Linear interpolation](Project%20Notebooks/linear_interpolation.ipynb)
 - [Bayesian Ridge MICE](/Project%20Notebooks/bayesian_ridge_MICE.ipynb)
@@ -121,59 +119,59 @@ In the later stages of the project my focus has been writing the paper. I wrote 
   
 ### Personal STARR-based reflection on writing the paper <br></br>
 **Situation:**  
-In the month December I thought that we were further along with writing the paper than we actually were. Which created a time window of three weeks to write the paper from start to finish whilst still getting results from imputation. To constantly improve on writing feedback and questions meetings had to be planned frequently with the group and teachers.
-
+In the month of December, it was thought that the Research paper was further along than it was at the time. To finish or get close to finishing the paper a time window of a month and a half was created. In the first week of December, it turned out there was not a lot done yet. Which left three weeks before the Christmas break to get a close to the final version draft done. The research was also still very light to support the paper so that needed some work too
 Accompanying research for the paper was also in need of improvement to get a starting point for our paper.
 
 **Task:**  
-Write the research paper and improve on it based on feedback given. Also support material with literature.
+Write the research paper and improve on it iteratively based on the feedback given by teachers and group members. Whilst writing reinforce the research paper with previous literature on the subject. Whilst writing the paper also look for what visualizations to include for getting the point across better.
 
 **Action:**  
-I started writing the paper on the third of december and did the required research for what I wrote. I finished a final version (before feedback) on the 31st of December and as a group we continued writing the missing parts on the 4th of January.
+I started writing the paper on the third of December and added the required research from what I had read before and was reading. To get everything correct in terms of technical details for our paper I asked every person for a detailed description of how the technical aspects work. These descriptions were rewritten to be included in the paper. 
+To get as much feedback as possible I arranged for extra meetings with teachers and made a live document on google drive for group members to give feedback in real-time. Because of the late start, I worked hard on this until the final weekend of the Christmas break. Every three days a new version was sent for feedback during the vacation.
+Whilst researching I also made suggestions as to what figures would help get our point across well and later, I wrote code that gave better insight data for our personal evaluation and for the final paper.
 
 **Result:**  
-A formal paper written to communicate our research done during this project.
+A formatted research paper was written to communicate the research done during this project. Iteratively written to get as much feedback as possible to make sure there were no misinterpretations. Including 3 or 4 figures that were made by me.
 
 **Reflection:**  
-Because we started too late with writing the paper I had to spend a lot of the Christmas break working on the paper. Due to difference in writing style and other people being busy I wrote the paper myself aside from individual piece for methods and feedback. If I had to do this over again I would be more inclusive with other people writing too. Aside from this I think that I communicated clearly to my group members as to what progress I made when writing the paper.
+Because of the unexpected late start with writing the paper I had to spend a lot of the Christmas break working on the paper. Due to the writing style and other people being busy or not available during the Christmas vacation I wrote the paper mostly by myself. If I had to do this over again, I would probably have checked on the paper sooner to prevent losing time. With writing the paper I would have liked to be more inclusive by convincing other people to write too. Aside from that, I think I communicated clearly what my progress was and what needed feedback to my group members.
 
 
 
 ## Reflection on own learning objectives  
 
 ---
-I wanted to use this minor to get an introduction into data science so that I could get an impression if it is truly something that interests me. I had no specific learning objective in mind when starting the minor but during the minor I developed a couple of personal goals:
-1. Writing and submitting an official research paper
+I wanted to use this minor to get an introduction to data science so that I could get an impression on if it is something that interests me as a career choice. I had no specific learning objectives in mind when starting this semester but during the minor, I developed a couple of learning objectives that I wanted to achieve. These were:
+
+1. Writing and submitting a research paper
 2. Competency in Python programming
-3. Using visualizations and data to draw and support sound conclusions
+3. Using visualizations and data to draw and support sound conclusions.
 
-I have written reseach reports and essays before but never a formatted research paper. During this semester I tried to build up to a well written paper that could be accepted at an official conference. I personally enjoy the process 
-of writing a paper and feedback given by teachers and Mr. Baldiri Salcedo Rahola
-(our client) has given me a better idea of how to write a paper.
+I have written research reports and essays before but never a formatted research paper. During this semester I tried to write a well-written paper that could be accepted at an official conference. I personally enjoy writing and feedback given by teachers and our problem owner has given me a better understanding of writing papers.  
 
-I had used Python before as a quick scripting language for formatting documents or quick calculations but it never got much deeper than that. Through the datacamp courses I got a way more in depth comprehension of Python programming. Utilizing Pandas to manipulate DataFrame and generating detailed visuals based on data has been a definite highlight for me as that has been something I wanted to do for some time.
+I had used Python before but only as a quick scripting language for formatting documents or quick calculations, but it never got much deeper than this. Through the data camp courses, I got a more in-depth understanding of Python programming in normal Python and for Jupyter Notebook. Using Python to make quick and easy visualizations of data has been something I wanted to do for some time and has been a definite highlight for me in terms of Python competency. 
 
-Learning how to generate visualizations and make/support conclusion based on them was something that I definitely wanted to improve on during this semester. Learning about them in the lectures and datacamp courses and applying them in a group project is a skill that will be an asset for later. 
-  
-<br></br>    
+Aside from writing the paper I also wanted to learn about how to make conclusions based on data and its visualizations for a project like this. Learning this and applying the skill in Python and in writing a paper is going to be an asset for later. <br></br>    
 
 ### STARR-based reflection on learning objectives  
 
 
 **Situation:**  
-After the pipleline was done running and evaluating the selected imputation methods we were left with an excel file filled with performance metrics. These results needed to be properly studied to draw sound conclusions for our research paper. To support decisions made visualizations were also required to back up the conclusions.  
+After the pipeline had finished running the imputations and evaluating the selected methods it created a CSV file filled with performance metrics per imputation performed.  The results need to be properly formatted, visualized and studied to make sound conclusions to our research for the paper. This then needed to be written down in a readable fashion for our paper. For the paper a selection of what visuals to include also needed to be made since there was a limit on how many visuals could be included for the conference the paper was going to be submitted to.
 
 **Task:**  
-Make sound conclusions based on data and support them with visualizations.    
+Get the results from the pipeline create visualizations based on the metrics and raw data also format them to make them readable in text. When that is done analyze and study the results achieved by our selected imputation methods and compare them to get the conclusion for our research paper. 
 
 **Action:**  
-I created visualizations that were made to support findings in the paper. Since it was a group project we made conclusions on the metrics together.
+When the results were in, I downloaded them from the pipeline (Jupyter Notebook server) and loaded them into a visualization script that I wrote. The script automatically generated visuals for the results on selected criteria in the results.csv file. When the results were visualized, I started analyzing the data visualized and in text form to draw conclusions.  
 
 **Result:**  
-The actions taken resulted in the conclusion of the paper, I personally find that the visuals created do support our findings.
+A sound conclusion was made on the results gotten from the comparison experiment done during our research. The conclusion in the research paper was properly structured and easy to understand for the reader. Visualizations selected for the conclusions also give a visual insight into the performance of the selected imputation methods that further support our conclusion.
 
 **Reflection:**  
-If I had more time I would have liked to have gotten more feedback on the visualizations included in the paper.  <br></br>
+Due to the Christmas break, it was hard to get all the group members into one call to give a consensus for our conclusion. To make it work I tried to be as transparent as possible on how the conclusion was made using visuals and data points. I think I succeeded in giving people clear insight into how and why the conclusions were made. 
+
+Thinking back, I would have liked more meetings with the whole group at once to discuss the results in one go. Instead, I made sure to hear everyone’s opinion in some way or form in a different call or in text format. I would have liked to make more visualizations for the paper but due to restrictions in formatting that wasn’t allowed.   <br></br>
 
 
 ## Evaluation of the group project    
@@ -181,32 +179,36 @@ If I had more time I would have liked to have gotten more feedback on the visual
 --- 
 
 
-Our group had people of various nationalities, which meant we had to communicate in English instead of Dutch. This was my first English project although I have written English reports before. Every group members English speaking abilities were great but it still felt hard at times to communicate specific parts of the project. Sometimes it felt in speaking and hearing that the semantics of what some was trying to say fell off which created some small inconsistencies in collaboration.
+Our group had people of various nationalities, which meant we had to communicate in English instead of Dutch. This was my first English project although I have written English reports before. All group member’s English-speaking abilities were great, but it still felt hard at times to communicate specific parts of the project. Sometimes it felt in speaking and hearing that the semantics of what some was trying to say fell off which created some small inconsistencies in collaboration.
 
-I think we all got along during this project and arguments we did have were solved in a mature manner. 
-
-
+I think we all got along during this project and the arguments we did have were solved in a mature manner. 
 
 ### STARR-based reflection on taking more of a leadership role in the last weeks<br></br>
 
 **Situation:**  
-During the last weeks of the project we (project group) felt a bit aimless. Some group members weren't sure of what they should do and nor were they asking. We were stuck at evaluating which made writing the results hard and meant that progress halted on writing the paper. Exchange students were also back in their home countries. 
+During the last weeks of the project, we as a project group felt a bit aimless. Some group members weren’t sure of what they should do but they also were not asking. We were stuck at the evaluation part of the research which made progressing further harder. Exchange students were also going back to their home countries which made physical meetings with the whole group impossible. The fact that all communication now had to be digital, and the holidays made it harder to keep progress steady. 
 
 **Task:**  
-Make sure everyone has a task to do and as a group check on their work so that finishing the paper is as smooth of a process as possible.
+Make sure everyone has a task to do for the research project and what their work entails. Deadlines also need to be made clear for keeping progress as smooth as possible when working individually.
 
 **Action:**  
-Because I was writing the paper I did have the best overview on what had to be done to complete our research. When looking at JiRa and asking what people were working on I got an idea of what people were doing and who had time to do which task. To communicate my thoughts on what needs to be done and requests to who should do what I used our Whatsapp group. To make clear of what each task entailed I messaged people individually to give a more detailed insight of what needs to be done. 
+Because I was writing the paper, I had the best overview of what had to be done still to complete our research. When looking at Jira and asking people what they were working on I got an understanding of who was doing what and was available to complete the tasks to be done.
+When working physically together at school I asked people in person at school what they were working on and if they could finish a part still to be completed. I also discussed the things I was missing in the research with the group, so everyone understood who did what. While working online I did mostly the same I messaged everyone individually on what needed to be done and when and in the WhatsApp group I also announced who did what. 
+On January 4th we met to finish the paper and for that, the task people were tasked with needed to be done. To make it clearer on what was expected from everyone I created an agenda points document. Jan 4th didn’t turn out to be the finishing date but for the other days, I created a similar document or message.  
 
-In the whatsapp group I also coordinated a couple of meeting in the latter half of the Christmas break during which we would finish the paper. Before each meeting I sent out a document containing agenda points of what needed to be done that day.
 
-[Example of a agenda point document](/Research%20Project/Agenda_points_for_jan_4th.docx)
+[Example of a agenda point document](/Research%20Project/Agenda_points_for_jan_4th.docx)  
+<details>
+  <summary>Image agenda point document</summary>
+  <img src="/Research%20Project/Image_Agenda_Points_Document.png" alt='image agenda point document'>
+</details>  
+
 
 **Result:**  
-Clearer coordination in the last few weeks which allowed us to have a better idea of what needed to be done. The result is also a better paper because we all gave feedback on each others work.
+Clearer coordination and communication within the group everyone knew what they were supposed to do before Jan 4th and other dates. It also helped writing the paper because it made it easier to communicate when a new version of the paper was ready for feedback.
 
 **Reflection:**  
-I should have started being more assertive earlier on the project. I think it would have improved communication of what needed to be done and perhaps balanced the workload a bit more. As a group I think we should have checked up on each others work more so that the improvements in work down were more gradual. 
+The group should probably have appointed someone as a ‘leader’ it felt we were a bit aimless at times. This was also due to some people being very reactive instead of active. Whether it was me or someone else doesn’t really matter to me. But I feel that if I started being more assertive earlier on in the project, we could have had a more balanced workload for the pipeline and paper. This would probably have resulted in a more gradual improvement too compared to the explosive bursts we had in progress. 
 
 
 # **Subject #1:** Research project  
@@ -225,7 +227,7 @@ From preliminary research and talking to the client and teachers we quickly real
   2. Which imputation methods are best suited for what gap sizes
   3. What imputation methods are best suited for which types of data?
 
-From research done in the first weeks of the project we found that some methods will most likely perform better on certain dataclassifications. Gap size also seemed to matter due to some methods having a bigger bias in larger gaps.  
+From research done in the first weeks of the project we found that some methods will most likely perform better on certain data classifications. Gap size or percentage of data missing also seemed to matter due to some methods performing worse when gaps get bigger.
 
 In the final paper our main question was answered by creating a guideline for which imputation method to use in what scenario. Subquestion #1 served as an orientation question to what method had precedent for imputing time series data. The second and third scenario form scenarios in which imputation takes place. Gap sizes vary in real data. This was mirrored in the artificial gaps to evaluate the performance on the various gap sizes present in data.
 
@@ -385,7 +387,7 @@ permission to include their feedback in this portfolio.
   **+** rigorous  
   **-** uneven workload throughout the duration of the minor    
 
-  **explanation:** Juliën endured the scrum master role, he made sure everyone in the team communicated on what they were doing or had trouble with. He has been someone we could rely on to get the work done and was willing to tackle literature work, which allowed most of us to focus on the practical work. But I feel like he has been less present at times, and working too much at other times, especially at the end, which could sometimes be hard for him to handle.
+  **Explanation:** Juliën endured the scrum master role, he made sure everyone in the team communicated on what they were doing or had trouble with. He has been someone we could rely on to get the work done and was willing to tackle literature work, which allowed most of us to focus on the practical work. But I feel like he has been less present at times, and working too much at other times, especially at the end, which could sometimes be hard for him to handle.
 
 </details>
 
