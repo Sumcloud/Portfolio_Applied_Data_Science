@@ -369,6 +369,7 @@ For the paper I wrote the following: Introduction, Abstract, Methodology (Except
 - [Document 2](Research%20Project/Research/Proof%20of%20work/Version%2028-12-2021%201400%20JUL.docx) time spent editing according to word [729 minutes](Research%20Project/Research/Proof%20of%20work/Editing%20time%20document%202.png)
 - [Document 3](/Research%20Project/Paper/Version%201-3-2022%2001-07%20JUL.docx)
 - [Document 4](/Research%20Project/Paper/Version%201-5-2022.docx)
+- [Document 5](/Research%20Project/Paper/Version%201-9-2022%20JUL%20(1).docx)
 
 [Back to table of contents](#table-of-contents)
 
