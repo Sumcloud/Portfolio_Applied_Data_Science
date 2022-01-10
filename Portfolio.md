@@ -440,7 +440,7 @@ permission to include their feedback in this portfolio.
 </details>
 
 ## Feedback for others
-<details>
+<details> 
   <summary>Adrien Lucbert</summary>
 
   **+** Hardworking  
