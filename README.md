@@ -20,6 +20,10 @@
   - [Evaluation of the group project](#evaluation-of-the-group-project)
     - [STARR-based reflection on taking more of a leadership role in the last weeks<br></br>](#starr-based-reflection-on-taking-more-of-a-leadership-role-in-the-last-weeksbr)
 - [**Subject #1:** Research project](#subject-1-research-project)
+  - [Conclusion of our research](#conclusion-of-our-research)
+  - [Further research](#further-research)
+  - [Planning](#planning)
+  - [Miscellaneous](#miscellaneous)
 
 # Mandatory requirements  
 
@@ -63,7 +67,8 @@ For the amount of work done on research
 **Research:**  
 
 - [Research proposal](/Research%20Project/Research%20Proposal/Research_proposal_Applied_Data_Science_project_IMP.pdf)
-- [Final version research paper]()
+- [Final Word version research paper in PDF](/Research%20Project/Paper/Final%20Version%20PDF.pdf)
+- [Final LaTeX version research paper in PDF]()
 - [Research done]()
   
 **Communication:**  
@@ -194,4 +199,102 @@ Clearer coordination and communication within the group everyone knew what they 
 **Reflection:**  
 The group should probably have appointed someone as a ‘leader’ it felt we were a bit aimless at times. This was also due to some people being very reactive instead of active. Whether it was me or someone else doesn’t really matter to me. But I feel that if I started being more assertive earlier on in the project, we could have had a more balanced workload for the pipeline and paper. This would probably have resulted in a more gradual improvement too compared to the explosive bursts we had in progress.   
 
-# **Subject #1:** Research project 
+# **Subject #1:** Research project  
+
+The project I worked on was project-imputation or IMP, the goal of the project was to create a guideline for the imputation of Building Management System (BMS) time-series data. The client for this project was the research group Energy in Transition (EiT), a research group from THUAS. During the project, we had constant contact with our contact person at EiT Mr. Baldiri Salcedo Rahola. EiT provided the research group with the datasets used for the research. The datasets contained data from 120 BMS units placed in terraced houses collected over the year 2019. Aside from BMS data our research also used meteorological data from KNMI. This data set contained climate recordings from 2018-2021 and included measurements taken by 25 weather stations throughout the Netherlands.  
+
+BMS measurements in our data set were supposed to be at an interval of five minutes but due to sensor malfunction or data storage errors, these values can be lost. These losses add up and cause inconsistencies down the line in downstream applications of the data. An example of this can include worsened performance in forecasting in cases with enough data missing. 
+
+To get the view of the project group, the teachers, and the client in line a research proposal was created to create an outline for our research. To form our research question and corresponding sub-questions preliminary literature research was done to see what previous work could be built upon.  
+The proposal contained our research questions as listed below:
+
+**Main-question:**  
+ - Which imputation techniques should be applied for data imputation in building energy time series data?  
+
+**Sub-questions:**  
+  1. What imputation methods are known for imputing time-series data?
+  2. Which imputation methods are best suited for what gap sizes
+  3. What imputation methods are best suited for which types of data?  
+
+**Explanation:**
+
+The first sub-question allowed us to orientate ourselves more in previous literature to find what methods have precedent in the field. The selection of imputation methods that were included was 4 but more methods outside those four were tested internally.   
+
+Due to the nature of some imputation methods (some imputing dynamic or static values) performance on various amounts of missing data and gap sizes is to be expected. During our preliminary desk research that was confirmed which led us to include this as a research question. To mimic gaps found in real data a gap creation algorithm was made to create artificial gaps randomly according to rules set in a config file. This allowed us to test the performance of each method in a controlled environment.   
+
+From preliminary research done in the first weeks of the project, we found that some methods of imputation will most likely perform better on certain data measurements scales. This led us to include it as a research question for our project. The conclusion of research question 3 formed the scenarios for the guideline together with the second question. Our data sets didn’t contain all measurement scales because of the nature of the data set ordinal scale data wasn’t included. The nominal data also was numerical and not text-based.
+The main research question was answered by testing the methods found in sub-question 1 and testing their performance in sub-question 1 and 2. The conclusion to our paper came in the form of a guideline of what imputation method to use with what data measurement scale and gap size.
+
+During our research, we deviated from the research proposal as imputing trends back into missing data became a focal point. This also meant a change in evaluation metrics as RMSE might not evaluate the ability to impute trends well. For this reason, Variance Error or VE was chosen to evaluate our imputation performance. RMSE was still included in the final paper as it is a common evaluation metric in many previous works.
+
+For our paper we used various abbreviations to make things clearer a table explaining them is found below.
+
+| Abbreviation| Term in full |
+|----------------:|-----------:|
+|RMSE| Root Mean Squared Error|
+|VE| Variance Error|
+|HD| Hot Deck|
+|RNN|Recurrent Neural Network|
+|GRU|Gated Recurrent Units|
+|KNN|K-Nearest Neighbour|
+|LOCF|Last Observation Carried Forward|
+
+
+
+## Conclusion of our research  
+
+This paper proposes a guideline to impute BMS nZEB data based on gap size and different scales of measurement.. The problem with missing data in BMS is becoming a bigger problem in an era where buildings depend on data. Previous research has been done about imputing BMS time series data; this paper tries to build on that by creating a comprehensive guideline to follow for certain scenarios. To create a guideline 4 methods were chosen from previous literature: GRU RNN, Hot Deck, KNN algorithm and LOCF. During the research, imputing trends back into missing data became the focal point of this study which is why Variance Error (VE) was used instead of a more traditional metric like Root Mean Squared Error (RMSE). The guideline that resulted from this experiment is listed down in the table below. Performance was evaluated using both RMSE and VE but metrics concluded the same methods as best for each gap type and data measurement scale.
+
+From the results of both VE and RMSE can be concluded that there is no single best imputation method for all gap sizes and measurement scales. The best method for a gap size is dependent on the measurement scale of the to be imputed data. No consistent crossover was found between the gap size and measurement scale as can be seen in the table.   
+
+| Guideline table | Gap type 1 | Gap type 2 | Gap type 3 | Gap type 4 | Gap type 5 | 
+|----------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|**Nominal**|HD|HD|HD|HD|HD|
+|**Ratio**|HD|HD|HD|HD|HD|
+|**Interval**|RNN|RNN|RNN|RNN|RNN|
+
+[**The values this table was based on can be found here**](/Research%20Project/Paper/Results%20Based%20on%20VE%20and%20RMSE.pdf)
+
+Outside the main conclusion several other smaller conclusions can be made based on the imputation results from our experiment. These smaller conclusions are:
+
+- The RMSE results show that the imputations done in this study are poor when compared to previous literature.
+- HD tends to do better in the KNMI datasets compared to RNN. This might be due to there being more regularity in data and thus more similar trends. An interesting example of this in the KNMI temperature data where HD beats RNN by a small margin but in flow_temp it loses to RNN with a wide margin in both VE and RMSE. 
+  
+- RMSE and VE do not always align when it comes to accurately evaluating the ability to impute a trend back into the missing data. A good example of this is CO2 gapsizes 3 and 4, the RMSE is score is relatively close between RNN and HD while the VE score is far apart. In the image below it can be seen that HD is trying to impute a trend and RNN is imputing a more stable is imputed.<details>
+  <summary>Co2 gap size 4 visual</summary>
+  <img src="/Research%20Project/Paper/CO2%20Sensor%20Gap%204.png" alt="Co2 gap size 4 visual">
+</details>  
+
+- In the acheived results no strong link can be found between having multiple strong correlators and a good RMSE or VE score. Flow_temp had two strong correlators in heat pump power usage and return temperature and got good imputation results. Power and CO2 results however seem to contrast these findings, as power and co2 both had one or two decent to strong correlators but both got worse results. 
+
+- In previous research, it was found the distribution to matter when training and imputing data across different units. To measure, the impact of this factor the Kurtosis and Skewness of both the training and imputation target were recorded. From our results, we can conclude that there was no consistent impact of a difference in Kurtosis or Skewness affecting our results. The CO2 sensor data had a high difference in both Kurtosis and Skewness and that might have affected the RNN somewhat. However, when looking at other features like flow_temp or power that same effect doesn’t show the same result. The difference in Kurtosis or Skewness can’t explain the worse performance of RNN on ratio data.
+
+## Further research
+
+In future work, the focus of research should be less on evaluating imputation with metrics based on the error and more on the impact of forecasting using imputed data. The effect on forecasting performance ought to be evaluated as it can provide a more complete view of imputation performance. 
+
+The data sets used for this study contain only numerical data and no ordinal data. To get a full view of the imputation performance on text-based categorical data further research is required.
+
+The GRU RNN architecture used in the research had clear limitations based on how it was set up. To evaluate the full potential of imputation using RNN the architecture should be changed to an encoder-decoder sequential based design. This would remove the potential bias of imputation using its own imputed values.
+
+To see if Hot Deck is truly a viable method for the imputation of BMS data more research will have to be done when the data sets aren't as similar. Since the buildings in this study are all in the same neighbourhood trends in power usage are very similar.
+
+## Planning
+At the start of the project we made a verbal agreement on what to finish when. Our goal was to present the research phases during the external presentations but we deviated from that when it came into practice. During the first weeks we had meetings once or twice a week but later on we upped that to daily meetings.
+
+For visualizing our KANBAN board we made of use of JiRA. Tasks were added weekly on Thursdays after meeting together and with teachers and at the end of each sprint we added backlog tasks for the next one. We didn't do traditional retrospectives but at the end of each sprint (which was always a Thursday) we discussed what we had done and what needed extra attention for the next sprint.
+<details>
+  <summary>Jira Sprint example</summary>
+  <img src="Research%20Project/JiRa%20sprints/Sprint_6.png" alt="Sprint 6">
+
+  [Sprint backup image](/Research%20Project/JiRa%20sprints/Sprint_6.png)
+</details>  
+
+## Miscellaneous 
+
+During the course of the project I have done research to back up our findings. These studies can be found [here]() formated in a table.
+
+
+
+
+
