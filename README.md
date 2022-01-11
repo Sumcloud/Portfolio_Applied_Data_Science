@@ -68,13 +68,13 @@ The final research paper was my biggest contribution as 90% of it was written by
 
 - [Research proposal](/Research%20Project/Research%20Proposal/Research_proposal_Applied_Data_Science_project_IMP.pdf)
 - [Final Word version research paper in PDF](/Research%20Project/Paper/Final%20Version%20PDF.pdf)
-- [Final LaTeX version research paper in PDF]()
+- [Final LaTeX version research paper in PDF](/Research%20Project/Paper/IMP%20Final%20Research%20Paper%20LaTeX%20version.pdf)
 - [Research done]()
 - Some of the previous versions of the research paper. (Some where in the form of live documents and were not preserved)
   - [Penultimate version in 1-9-2022](Research%20Project/Paper/Penultimate%20version.pdf)
   - [Version 1-7-2022](/Research%20Project/Paper/Version%201-7.pdf)
   - [Version 1-5-2022](/Research%20Project/Paper/Version%201-5-2022.pdf)
-  - [Version 1-3-2022](/Research%20Project/Paper/Version%201-7.pd)
+  - [Version 1-3-2022](/Research%20Project/Paper/Version%201-7.pdf)
   - [Version 28-12-2021](/Research%20Project/Paper/Version%2028-12-2021%201400%20JUL.pdf)
   - [Version 13-12-2021](/Research%20Project/Paper/Version-13-12-2021.pdf)
   
