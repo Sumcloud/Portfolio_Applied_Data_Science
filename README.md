@@ -58,7 +58,7 @@ This chapter will cover the obligatory criteria as stated in the evaluation rubr
 
 I didnt't have a specific role during this project, I think I did a bit of everything. However, most of my time has been spent has been spent on both research and the writing of the research paper. I didn't do much on the pipeline but I did work on adding imputation methods found in previous literature and visualizations to visualize method performance.  
 
-For the amount of work done on research 
+The final research paper was my biggest contribution as 90% of it was written by me alone of course with feedback from both group members and teachers. The research included in the paper is also done by me to put our findings in context. The only pieces I didn't write was Hot Deck explanation and I only gave feedback an added to the RNN part.
   
 
 ### Task I worked on:  
@@ -70,6 +70,13 @@ For the amount of work done on research
 - [Final Word version research paper in PDF](/Research%20Project/Paper/Final%20Version%20PDF.pdf)
 - [Final LaTeX version research paper in PDF]()
 - [Research done]()
+- Some of the previous versions of the research paper. (Some where in the form of live documents and were not preserved)
+  - [Penultimate version in 1-9-2022](Research%20Project/Paper/Penultimate%20version.pdf)
+  - [Version 1-7-2022](/Research%20Project/Paper/Version%201-7.pdf)
+  - [Version 1-5-2022](/Research%20Project/Paper/Version%201-5-2022.pdf)
+  - [Version 1-3-2022](/Research%20Project/Paper/Version%201-7.pd)
+  - [Version 28-12-2021](/Research%20Project/Paper/Version%2028-12-2021%201400%20JUL.pdf)
+  - [Version 13-12-2021](/Research%20Project/Paper/Version-13-12-2021.pdf)
   
 **Communication:**  
 
