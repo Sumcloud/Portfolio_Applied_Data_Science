@@ -22,8 +22,10 @@
 - [**Subject #1:** Research project](#subject-1-research-project)
   - [Conclusion of our research](#conclusion-of-our-research)
   - [Further research](#further-research)
+  - [Visualizations](#visualizations)
   - [Planning](#planning)
   - [Miscellaneous](#miscellaneous)
+- [Domain knowledge](#domain-knowledge)
 
 # Mandatory requirements  
 
@@ -69,7 +71,7 @@ The final research paper was my biggest contribution as 90% of it was written by
 - [Research proposal](/Research%20Project/Research%20Proposal/Research_proposal_Applied_Data_Science_project_IMP.pdf)
 - [Final Word version research paper in PDF](/Research%20Project/Paper/Final%20Version%20PDF.pdf)
 - [Final LaTeX version research paper in PDF](/Research%20Project/Paper/IMP%20Final%20Research%20Paper%20LaTeX%20version.pdf)
-- [Research done]()
+- [Research done](/Research%20Project/Paper/Some%20of%20the%20studies%20found%20and%20described.pdf)
 - Some of the previous versions of the research paper. (Some where in the form of live documents and were not preserved)
   - [Penultimate version in 1-9-2022](Research%20Project/Paper/Penultimate%20version.pdf)
   - [Version 1-7-2022](/Research%20Project/Paper/Version%201-7.pdf)
@@ -286,10 +288,26 @@ The GRU RNN architecture used in the research had clear limitations based on how
 
 To see if Hot Deck is truly a viable method for the imputation of BMS data more research will have to be done when the data sets aren't as similar. Since the buildings in this study are all in the same neighbourhood trends in power usage are very similar.
 
+## Visualizations
+
+To help make conclusions about the data I made visualizations of the results per imputation target and evaluation criteria. These visuals were automatically generated when loading data in a script I wrote. 
+
+- [Link to the script here!](Project%20Notebooks/Visuals/criteria_grouped_bar_plotter.py)  
+- <details><summary>Example image</summary><img src="/Project%20Notebooks/Visuals/Images/Average%20variance%20error_per_gap_Temperature_9_20_2_37.png" alt="Variance average temperature" ></details>
+- [Other examples](/Research%20Project/Paper/Graph%20examples.pdf)
+
+To get ideas for visualizations to include in the paper I experimented around with some visuals. Sadly because of the CLIMA-format heavily restricting the use of visuals many of these concepts didn't make it into the paper. These visual concepts included:
+
+- Missingno matrix <details><summary>Missing matrix image</summary><img src="/Project%20Notebooks/Visuals/Images/Missingno_matrix_smartMeter_power_gap_type_5.png" alt="missingnomatrix"></details>
+
+
 ## Planning
 At the start of the project we made a verbal agreement on what to finish when. Our goal was to present the research phases during the external presentations but we deviated from that when it came into practice. During the first weeks we had meetings once or twice a week but later on we upped that to daily meetings.
 
 For visualizing our KANBAN board we made of use of JiRA. Tasks were added weekly on Thursdays after meeting together and with teachers and at the end of each sprint we added backlog tasks for the next one. We didn't do traditional retrospectives but at the end of each sprint (which was always a Thursday) we discussed what we had done and what needed extra attention for the next sprint.
+
+Some weeks of the project had to be spent online due to COVID restrictions and in those weeks we held online daily standups to remain productive. During this project I had to go in to a quarantine  because a close relative got COVID, this lasted 2+ weeks which made it hard to keep as involved in the project.
+
 <details>
   <summary>Jira Sprint example</summary>
   <img src="Research%20Project/JiRa%20sprints/Sprint_6.png" alt="Sprint 6">
@@ -299,8 +317,12 @@ For visualizing our KANBAN board we made of use of JiRA. Tasks were added weekly
 
 ## Miscellaneous 
 
-During the course of the project I have done research to back up our findings. These studies can be found [here]() formated in a table.
+During the project I have done research to back up our findings. These studies can be found [here](/Research%20Project/Paper/Some%20of%20the%20studies%20found%20and%20described.pdf) formatted in a table. More papers were read but because only the most relevant papers were kept the list can feel relatively short. 
 
+[Back to table of contents](#table-of-contents)
+
+
+# Domain knowledge
 
 
 
