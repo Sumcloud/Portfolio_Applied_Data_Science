@@ -26,6 +26,9 @@
   - [Planning](#planning)
   - [Miscellaneous](#miscellaneous)
 - [Domain knowledge](#domain-knowledge)
+  - [Literature research](#literature-research)
+    - [Miscellaneous literature](#miscellaneous-literature)
+  - [Terminology](#terminology)
 
 # Mandatory requirements  
 
@@ -71,7 +74,7 @@ The final research paper was my biggest contribution as 90% of it was written by
 - [Research proposal](/Research%20Project/Research%20Proposal/Research_proposal_Applied_Data_Science_project_IMP.pdf)
 - [Final Word version research paper in PDF](/Research%20Project/Paper/Final%20Version%20PDF.pdf)
 - [Final LaTeX version research paper in PDF](/Research%20Project/Paper/IMP%20Final%20Research%20Paper%20LaTeX%20version.pdf)
-- [Research done](/Research%20Project/Paper/Some%20of%20the%20studies%20found%20and%20described.pdf)
+- [Research done](Research%20Project/Paper/Some_studies_found_during_research.pdf)
 - Some of the previous versions of the research paper. (Some where in the form of live documents and were not preserved)
   - [Penultimate version in 1-9-2022](Research%20Project/Paper/Penultimate%20version.pdf)
   - [Version 1-7-2022](/Research%20Project/Paper/Version%201-7.pdf)
@@ -296,9 +299,12 @@ To help make conclusions about the data I made visualizations of the results per
 - <details><summary>Example image</summary><img src="/Project%20Notebooks/Visuals/Images/Average%20variance%20error_per_gap_Temperature_9_20_2_37.png" alt="Variance average temperature" ></details>
 - [Other examples](/Research%20Project/Paper/Graph%20examples.pdf)
 
-To get ideas for visualizations to include in the paper I experimented around with some visuals. Sadly because of the CLIMA-format heavily restricting the use of visuals many of these concepts didn't make it into the paper. These visual concepts included:
+To get ideas for visualizations to include in the paper I experimented around with some visuals. Sadly because of the CLIMA-format heavily restricting the use of visuals many of these concepts didn't make it into the paper. The visual concepts included:
 
-- Missingno matrix <details><summary>Missing matrix image</summary><img src="/Project%20Notebooks/Visuals/Images/Missingno_matrix_smartMeter_power_gap_type_5.png" alt="missingnomatrix"></details>
+- Missingno matrix <details><summary>Example</summary><img src="/Project%20Notebooks/Visuals/Images/Missingno_matrix_smartMeter_power_gap_type_5.png" alt="missingnomatrix"></details>
+- Change in distribution <details><summary>Example<summary></details>
+- Distribution histogram <details><summary>Distribution histogram</summary></details>
+- Trend indicator line graph <details><summary>Example</summary><img src="/Project%20Notebooks/Visuals/Images/Trend_difference_smartMeter_power_Hot_deck_gap_type_5_other_index.png" alt="trend difference Hot Deck gap type 5"></details>
 
 
 ## Planning
@@ -324,6 +330,50 @@ During the project I have done research to back up our findings. These studies c
 
 # Domain knowledge
 
+This project focused on imputing Building Management System (BMS) time-series data. BMS’s generate data from various sensor measurements at set time intervals. Examples of these sensors are the current operational mode of a heat pump, heat pump water flow temperature, power usage and CO2 measurements. However, sometimes data can get lost by things like sensor or data storage malfunction. Lost data in large enough quantities cause forecasting models to be less accurate and can thus by proxy result in less living comfort for the residents or worse building system shutdown. 
+
+This is where imputation comes in, to bring back the lost data many methods can be used with various backgrounds e.g., Statistical, Linear or Neural Network-based methods. For smaller gaps simpler methods can be used with relative success but in larger sequences of missing data more complex methods ought to be used. Examples of simpler methods are Last Observation Carried Forward and Linear interpolation. LOCF works by placing the last valid observation on the entirety of the gap and Linear interpolation calculates a linear trend between the value before and after a gap.
+More complex methods would include Neural Network or machine learning based solutions. 
+
+Data from things like power usage can be hard to impute because the data changes rapidly and is very volatile. When imputing things like power usage or flow temperature it can be useful to know trends since people have certain habits. The imputation of trends is also important for the same reason as it gives better insight into downstream applications of the data. 
+
+Because our buildings are becoming smarter and smarter and more dependent on data to regulate the efficiency of their processes completeness of data is vital. There has been a lot of research into the imputation of BMS data to make the buildings of the future more efficient. Our research aimed to create a guideline on when to use what imputation method for what measurement scale of data and amount of data missing. 
+
+Another focus of our research paper was to evaluate an imputation method’s ability to impute a trend back into the missing data. Previous literature used an evaluation metric called Root Mean Squared Error (RMSE) which in different circumstances is a good metric to evaluate imputation performance with. Because RMSE cares more about the total accuracy of imputation than a trend being followed it can give misleading insight into an imputation method’s ability to impute trends.
+
+For our research, a different metric was chosen namely the Variance Error (VE). It is calculated by calculating the difference in the variance of data in original and imputed data. RMSE was still included in the paper as a comparison point for previous and future research. RMSE tended to match VE but in some cases, RMSE scores indicated a different conclusion than VE but the trend imputation was correctly evaluated by VE. 
 
 
+## Literature research
 
+To gain knowledge on the specific domain of the imputation of BMS time-series data studies were used that are included in the final paper.
+Those can be found [here](Research%20Project/Paper/Some_studies_found_during_research.pdf).
+
+To highlight some of the research found:  
+
+- Liang Zhang (2020), A study into the imputation of BMS time series data using a comparative experiment.This gave me a good idea of the current work done in the domain.
+https://doi.org/10.3390/s20205947 
+
+- Mel Keytingan (2020), What methods have precedent in the field and what to take into account when dealing with seperate data units.  
+  https://doi.org/10.1016/j.dibe.2020.100037
+-  Mehdi Pazhoohesh (2019), Not especially similar data set as it uses lighting data instead of things like power. Still gives good precedent on methods to include when imputing time series.
+    https://doi.org/10.1109/sege.2019.8859963
+
+### Miscellaneous literature
+- Stef van Buuren's book Flexible Imputation of Missing Data, this was useful when starting out with imputations. https://stefvanbuuren.name/fimd/
+- 
+
+## Terminology 
+
+|Term   |Explanation|
+|:------|:----------|
+|Imputation|Replacing the missing values with substituted data|
+|Variance| mean squared difference between each observation and the centre of distribution meaning the average|
+|Kurtosis|Statistical indicator of the peakedness in distribution of data. Data sets with a high Kurtosis value will be heavily tailed and ones with low Kurtosis values will be light tailed in their distribution.|
+|Skewness|Meassure of asymmetry in probability distribution about its mean|
+|Variance Error| The difference in variance present in original and imputed data|
+|Root Mean Squared Error|Common use imputation evaluation metric calculated by taking the square root of the mean squared error|
+|Time-series data|A series of observations indexed by a timestamp|
+|Data velocity|How quickly data is generated in our case supposedly every 5 minutes|
+|Machine learning|Systems that are able to learn without explicit instructions by using algorithms and other statistical values to make conclusion based on patterns observed in data.|
+|Neural Network|Algorithms that mimic the process of the human brain to recognize patterns in data sets.|
