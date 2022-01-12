@@ -29,6 +29,7 @@
   - [Literature research](#literature-research)
     - [Miscellaneous literature](#miscellaneous-literature)
   - [Terminology](#terminology)
+- [**Subject #3:** Communication](#subject-3-communication)
 
 # Mandatory requirements  
 
@@ -85,6 +86,7 @@ The final research paper was my biggest contribution as 90% of it was written by
   
 **Communication:**  
 
+- [First internal presentation](/Presentations/Internal%20Presentation%20week%202.pdf)
 - [Internal presentation November 8](Presentations/Internal_November_8.pdf)
 - [Internal presentation December 6](Presentations/Internal_Week_6.pdf)
 - [Internal presentation December 20](Presentations/Internal_December_20.pdf)
@@ -380,3 +382,6 @@ https://doi.org/10.3390/s20205947
 |Neural Network|Algorithms that mimic the process of the human brain to recognize patterns in data sets.|
 
 [Back to the table of contents](#table-of-contents)
+
+# **Subject #3:** Communication
+
