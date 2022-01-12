@@ -30,6 +30,13 @@
     - [Miscellaneous literature](#miscellaneous-literature)
   - [Terminology](#terminology)
 - [**Subject #3:** Communication](#subject-3-communication)
+  - [Presentations](#presentations)
+  - [Writing the paper](#writing-the-paper)
+    - [Research Proposal:](#research-proposal)
+    - [Research paper](#research-paper)
+- [Feedback](#feedback)
+  - [Feedback from others](#feedback-from-others)
+  - [Feedback for others](#feedback-for-others)
 
 # Mandatory requirements  
 
@@ -73,8 +80,8 @@ The final research paper was my biggest contribution as 90% of it was written by
 **Research:**  
 
 - [Research proposal](/Research%20Project/Research%20Proposal/Research_proposal_Applied_Data_Science_project_IMP.pdf)
-- [Final Word version research paper in PDF](/Research%20Project/Paper/Final%20Version%20PDF.pdf)
-- [Final LaTeX version research paper in PDF](/Research%20Project/Paper/IMP%20Final%20Research%20Paper%20LaTeX%20version.pdf)
+- [Final Word version research paper in PDF](/Research%20Project/Paper/Final%20Version%20PDF.pdf) (Wrote everything except Hot Deck and RNN explanation)
+- [Final LaTeX version research paper in PDF](/Research%20Project/Paper/IMP%20Final%20Research%20Paper%20LaTeX%20version.pdf) (Gave feedback on LaTeX layout)
 - [Research done](Research%20Project/Paper/Some_studies_found_during_research.pdf)
 - Some of the previous versions of the research paper. (Some where in the form of live documents and were not preserved)
   - [Penultimate version in 1-9-2022](Research%20Project/Paper/Penultimate%20version.pdf)
@@ -301,13 +308,17 @@ To help make conclusions about the data I made visualizations of the results per
 - <details><summary>Example image</summary><img src="/Project%20Notebooks/Visuals/Images/Average%20variance%20error_per_gap_Temperature_9_20_2_37.png" alt="Variance average temperature" ></details>
 - [Other examples](/Research%20Project/Paper/Graph%20examples.pdf)
 
-To get ideas for visualizations to include in the paper I experimented around with some visuals. Sadly because of the CLIMA-format heavily restricting the use of visuals many of these concepts didn't make it into the paper. The visual concepts included:
+To get ideas for visualizations to include in the paper I experimented with some visuals. Sadly because of the CLIMA-format heavily restricting the use of visuals many of these concepts didn't make it into the paper. Again these visuals were exploratory and for internal use only.   
+The visual concepts included:
 
 - Missingno matrix <details><summary>Example</summary><img src="/Project%20Notebooks/Visuals/Images/Missingno_matrix_smartMeter_power_gap_type_5.png" alt="missingnomatrix"></details>
-- Change in distribution <details><summary>Example<summary></details>
-- Distribution histogram <details><summary>Distribution histogram</summary></details>
+- Change in distribution<details><summary>Example</summary><img src="Project%20Notebooks/Visuals/Images/Change_in_distribution_histogram_hotdeck_gap_size_5.png" alt="change in distribution"></details>  
+- Distribution histogram <details><summary>Distribution histogram</summary><img src="/Project%20Notebooks/Visuals/Images/Distribution_in_measurements_power_imputed_by_hot_deck_gap_type_5.png" alt="distribution"></details>
 - Trend indicator line graph <details><summary>Example</summary><img src="/Project%20Notebooks/Visuals/Images/Trend_difference_smartMeter_power_Hot_deck_gap_type_5_other_index.png" alt="trend difference Hot Deck gap type 5"></details>
 
+When it came to writing the paper the concept became explanatory and were made easier to read for a wider audience.
+
+- Trend Indicator line graph<details><summary>Example</summary><img src="/Project%20Notebooks/Visuals/Images/Flow_temp.png" alt="Improved trend indicator"></details>
 
 ## Planning
 At the start of the project we made a verbal agreement on what to finish when. Our goal was to present the research phases during the external presentations but we deviated from that when it came into practice. During the first weeks we had meetings once or twice a week but later on we upped that to daily meetings.
@@ -364,6 +375,7 @@ https://doi.org/10.3390/s20205947
 ### Miscellaneous literature
 - Stef van Buuren's book Flexible Imputation of Missing Data, this was useful when starting out with imputations. https://stefvanbuuren.name/fimd/
 - Some articles from [towards data science (medium.com)](https://towardsdatascience.com/) for example this [article](https://towardsdatascience.com/a-comprehensive-guide-to-data-imputation-e82eadc22609). They were quite useful to get some layman's knowledge in the field.
+- Books such as: Introduction to machine learning with Python & Datascience from scratch first principles with Python.
 
 
 ## Terminology 
@@ -385,3 +397,233 @@ https://doi.org/10.3390/s20205947
 
 # **Subject #3:** Communication
 
+To communicate the progress and results of our research I presented four internal presentations and assisted in preperation with two external presentations. In the first weeks of the project I wrote the Research proposal together with Ramon van der Elst. During the last months of the project I wrote the final research paper of our project.
+
+## Presentations
+
+**Internal presentations I created and presented:**  
+
+- [Internal presentation September 6](/Presentations/Internal%20Presentation%20week%202.pdf)
+- [Internal presentation November 8](Presentations/Internal_November_8.pdf)
+- [Internal presentation December 6](Presentations/Internal_Week_6.pdf)
+- [Internal presentation December 20](Presentations/Internal_December_20.pdf)
+
+**External presentations I assisted with in preperation:**
+
+- [External presentation Week 6](/Presentations/Team%20IMP%20-%20external%20presentation%20week6.pdf)
+- [External presentation Week 14](/Presentations/Imputation%20Project%20team%20Internal%20presentation%20week14.pdf)
+
+**For each presentation I created the following file structure:**
+```
+  Presentation folder/
+    Images/
+      image_1.png
+    Presentation file week X.pptx
+    Work Description per person.docx
+```
+
+The word document was used for everyone to describe their work in the last weeks. The Images folder was used to add visuals for the powerpoint. I found this structure to be the most clear and easy to use when working on this group project.
+<details>
+  <summary><i>Example 1</i></summary>
+  <img src="Presentations/Structure/Example_1.png" alt="Example 1">
+
+  **Back-up:** [*Example_1*](Presentations/Structure/Example_1.png)
+</details>
+
+<details>
+  <summary><i>Example 2</i></summary>
+  <img src="Presentations/Structure/Example_2.png" alt="Example 2">
+
+  **Back-up:** [*Example_2*](Presentations/Structure/Example_2.png)
+</details>
+
+## Writing the paper  
+
+---  
+
+As stated in my learning objectives I wanted to create a paper based on our research and submit it to the CLIMA conference. 
+
+### Research Proposal:  
+To get on the same line with each other in the group and with the client and teachers a research proposal was created. During the project we deviated from some of the outlines in the proposal but I see that as only natural due to it being very early on in this minor. The research proposal was written collaboratively with Ramon van der Elst. The rest of the research group gave constant input to get a research proposal we all agreed with. 
+
+*Parts that I wrote for the research proposal:* Introduction, Research Questions (With input from group ofcourse), Background & context, Methodology
+
+**Proof of work:**  
+
+- [Research proposal document](/Research%20Project/Research%20Proposal/Research_proposal_Applied_Data_Science_project_IMP.pdf)
+- <details><summary>Editing history research proposal 1 </summary><img src="/Research%20Project/Research%20Proposal/Version%20History/Version_History_October%203-14.png"></details>
+
+- <details><summary>Editing history research proposal 2 </summary><img src="/Research%20Project/Research%20Proposal/Version%20History/Version_History_September%2023_October_2.png"></details>
+
+- To see version history of the research proposal go to Google docs [(->link<-)](https://docs.google.com/document/d/1RehSUVk_NFjkZ0QC1pMuIAnE69TpEE6o0C73XAbNcgM/edit?usp=sharing) and go to: 
+  file>version history>see version history
+
+
+### Research paper
+
+For the paper I wrote the following: Introduction, Abstract, Methodology (Except for Hot Deck and Recurrent Neural networks), Results and Discussion. I adjusted to feedback given by teachers especially Baldiri gave a lot of feedback. He shortened my sentences by large amounts and I adapted to his feedback. 
+
+During the Christmas break I sent versions of the paper to individual groupmembers (mostly Ramon van der Elst) for feedback. The research paper was also uploaded to google drive with every iteration to get as much feedback as possible. The last versions were edited in drive only as that reduced confusion as to what was the most recent version. 
+
+Parts I wrote for the research paper (I wrote these pieces by myself 100%):
+
+- Abstract
+- Introduction
+- Methodology (Except Hot Deck and RNN (I only rephrased the RNN and added Correlation part))
+- Results and discussion
+- Conclusion
+
+My local versions of the research paper:
+
+  -  [Last version of the paper](/Research%20Project/Paper/Version-1-12-2022.pdf)
+  - [Penultimate version in 1-9-2022](Research%20Project/Paper/Penultimate%20version.pdf)
+  - [Version 1-7-2022](/Research%20Project/Paper/Version%201-7.pdf)
+  - [Version 1-5-2022](/Research%20Project/Paper/Version%201-5-2022.pdf)
+  - [Version 1-3-2022](/Research%20Project/Paper/Version%201-7.pdf)
+  - [Version 28-12-2021](/Research%20Project/Paper/Version%2028-12-2021%201400%20JUL.pdf)
+  - [Version 13-12-2021](/Research%20Project/Paper/Version-13-12-2021.pdf)
+
+Later on we switched to a Google drive live document:
+
+- [Link for the drive document](https://docs.google.com/document/d/1FVeg5uGtCNqQEdwu1R0kmPcDqkFb2P3E/edit)
+
+For the final LaTeX format I gave feedback to Michael to improve the paper layout. 
+
+- [LaTeX paper](Research%20Project/Paper/IMP%20Final%20Research%20Paper%20LaTeX%20version.pdf)
+
+When writing the conclusion and I made sure to confirm every conclusion with both Albert Corson and Adrien Lucbert. Via Teams I gave an explanation using the exploratory visuals I made to see if they saw the conclusion that I saw. For full transparency and to get as much feedback as possible I sent the generated Barcharts in the whatsapp group so that everyone could give informed feedback and conclusions.
+
+<details>
+<summary>Barcharts in whatsapp groups
+</summary>
+<img src="/Research%20Project/Barcharts-in-whatsapp.png">
+</details>  
+
+Ramon van der Elst has been especially helpful in his feedback for the paper. Thanks to him a lot of spelling and grammar errors were removed.
+
+[Back to the table of contents](#table-of-contents)
+  
+# Feedback
+As a group we forgot to make use of the 360 degree feedback tool. To make up for this I decided to ask for feedback on personal performance for this portfolio. **NOTE!:** I did get 
+permission to include their feedback in this portfolio.
+
+## Feedback from others
+
+<details>
+  <summary>Adrien Lucbert</summary>  
+
+  **+** leader/coordinator behaviour  
+  **+** rigorous  
+  **-** uneven workload throughout the duration of the minor    
+
+  **Explanation:** Juliën endured the scrum master role, he made sure everyone in the team communicated on what they were doing or had trouble with. He has been someone we could rely on to get the work done and was willing to tackle literature work, which allowed most of us to focus on the practical work. But I feel like he has been less present at times, and working too much at other times, especially at the end, which could sometimes be hard for him to handle.
+
+</details>
+
+<details>
+  <summary>Albert Corson</summary>
+
+  **What went well:**    
+
+  - Willing to work  
+  
+  **What could be improved:**   
+
+  - Coordination/Communication
+</details>
+
+<details>
+  <summary>Jesús Martínez De Juan</summary>
+
+  **+** Good desire to work
+  **+** Some previous knowledges  
+  **+** Productivity even when Julien had to quarantine  
+  **-** Spending too much time in methods that didn't worked at the end (but we didn't know previously)  
+
+  **Explanation:** I'm glad to have worked with Julien and all the members of the group. He has always good willing to work and he took the lead in taking notes of all the meetings we had so we can have the main important points clearly.
+  
+</details>
+
+<details>
+  <summary>Michael Weij </summary>  
+
+  **+**  Julien took up to do most of the communication within the team which was really nice. Which made it easy to know what everybody was responsible for.  Because of that it was easy to work together.
+  
+  **-**  In the second half we decided to work more on site so we could finish the project in time. But most of the time you still decided to work from home. I think it was better for the project if you were more on site overall.  
+
+
+  **Explanation:** It was nice working with Julien he did everything he was said he was going to do and made sure everybody was on the right track.    
+
+  
+</details>
+
+<details>
+  <summary>Ramon van der Elst </summary>  
+  
+  **+** Very communicative and clear throughout the project.  
+  **+** Took on a lot of work and with his perfectionistic approach showed some good results.  
+  **-** Sometimes takes on the work alone and should try to work together more often. 
+
+  
+</details>
+
+## Feedback for others
+<details> 
+  <summary>Adrien Lucbert</summary>
+
+  **+** Hardworking  
+  **+** Active contributions during group only meetings or with teachers  
+  **+** Enthusiastic  
+  **-** Didn't ask for help  
+
+  **Explanation:** 
+  Adrien has been an absolute pleasure to work with during this semester, he was a hard worker and was one of the few people who actively contributed during meetings either internal or with teachers. At times he pulled too much work towards him, this created a bit of an uneven workload. He did his work without asking for other people to assist him in his work, which made it harder for people to assist him when needed. In the end, his enthusiastic attitude and contributions have been vital to the success of our project.
+
+</details>
+
+<details>
+  <summary>Albert Corson</summary>
+
+  **+** Active contributions during group only meetings or with teachers  
+  **+** Hard worker  
+  **-** Communication and coordination was hard at times  
+  **Explanation:**
+  Overall Albert has been a pleasure to work with, he was a big contributor to the project with the custom Hot Deck method and improvements to the pipeline. He was also one of the few people during meetings who would speak up and ask for clarification during meetings internal or with teachers. Coordinating was a bit hard at times but that is was mostly when working online and those problems subsided when we moved to in person when it was possible.
+  
+</details>
+
+<details>
+  <summary>Jesús Martínez De Juan</summary>
+
+  **+** Adept  
+  **-** Was hard to communicate and coordinate with  
+  **-** Was passive during meetings  
+  
+  **Explanation:** To be honest I haven't worked with Jesús much because he was largely focused on Neural Networks from the start of the project. During meetings he didn't add much and needed to be asked in order to contribute.  
+</details>
+
+<details>
+  <summary>Michael Weij </summary>  
+
+  **+** Good communication  
+  **+** Good attitude  
+  **-** Could have helped with Research    
+
+  **Explanation**
+  Michael and I haven't worked on the same taks during the project so I can't speak to the indiviudual quality of work aside from the LaTeX format due to his work being largely collaborative. I found his attitude during the project to be sharp and his punctuality for deadlines to gives me the same feeling.
+
+</details>
+
+<details>
+  <summary>Ramon van der Elst </summary>  
+
+  **+** Good at presenting especially the external presentations  
+  **+** Good critical feedback on paper  
+  **-** Didn't ask for help  
+  **-** Passive during meetings group only and with teachers
+
+  **Explanation:** Ramon's part for this project was writing the paper and researching previous studies to make writing the paper and the research process easier. During the last month a lot had to be done on his earliest draft of the paper, due to the fact that he had never asked for feedback from us or the teachers. The research he did also didn't overlap quite well to what was required in terms of technical aspects of the paper. This was largely due to him not asking questions for technical processes that the other group members were working on. This also showed in his paper where some clear misconceptions and lack knowledge of ongoing technical processes were apparent. In the last weeks I rewrote his first version and added some papers that I found during research. His feedback has been important for the improvement of the paper and his presentation skills were also a big help to communicating the goals, processes and results of our research. 
+</details>
+
+[Back to table of contents](#table-of-contents)
+   
