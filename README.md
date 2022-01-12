@@ -25,7 +25,7 @@
   - [Visualizations](#visualizations)
   - [Planning](#planning)
   - [Miscellaneous](#miscellaneous)
-- [Domain knowledge](#domain-knowledge)
+- [**Subject #2:** Domain knowledge](#subject-2-domain-knowledge)
   - [Literature research](#literature-research)
     - [Miscellaneous literature](#miscellaneous-literature)
   - [Terminology](#terminology)
@@ -328,7 +328,7 @@ During the project I have done research to back up our findings. These studies c
 [Back to table of contents](#table-of-contents)
 
 
-# Domain knowledge
+# **Subject #2:** Domain knowledge
 
 This project focused on imputing Building Management System (BMS) time-series data. BMS’s generate data from various sensor measurements at set time intervals. Examples of these sensors are the current operational mode of a heat pump, heat pump water flow temperature, power usage and CO2 measurements. However, sometimes data can get lost by things like sensor or data storage malfunction. Lost data in large enough quantities cause forecasting models to be less accurate and can thus by proxy result in less living comfort for the residents or worse building system shutdown. 
 
@@ -361,7 +361,8 @@ https://doi.org/10.3390/s20205947
 
 ### Miscellaneous literature
 - Stef van Buuren's book Flexible Imputation of Missing Data, this was useful when starting out with imputations. https://stefvanbuuren.name/fimd/
-- 
+- Some articles from [towards data science (medium.com)](https://towardsdatascience.com/) for example this [article](https://towardsdatascience.com/a-comprehensive-guide-to-data-imputation-e82eadc22609). They were quite useful to get some layman's knowledge in the field.
+
 
 ## Terminology 
 
@@ -377,3 +378,5 @@ https://doi.org/10.3390/s20205947
 |Data velocity|How quickly data is generated in our case supposedly every 5 minutes|
 |Machine learning|Systems that are able to learn without explicit instructions by using algorithms and other statistical values to make conclusion based on patterns observed in data.|
 |Neural Network|Algorithms that mimic the process of the human brain to recognize patterns in data sets.|
+
+[Back to the table of contents](#table-of-contents)
