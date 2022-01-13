@@ -13,7 +13,7 @@
 - [Mandatory requirements](#mandatory-requirements)
   - [Datacamp certificates](#datacamp-certificates)
   - [Reflection on group project contributions](#reflection-on-group-project-contributions)
-    - [Task I worked on:](#task-i-worked-on)
+    - [Tasks I worked on:](#tasks-i-worked-on)
     - [Personal STARR-based reflection on writing the paper   <br></br>](#personal-starr-based-reflection-on-writing-the-paper---br)
   - [Reflection on own learning objectives](#reflection-on-own-learning-objectives)
     - [STARR-based reflection on learning objectives](#starr-based-reflection-on-learning-objectives)
@@ -74,7 +74,7 @@ I didnt't have a specific role during this project, I think I did a bit of every
 The final research paper was my biggest contribution as 90% of it was written by me alone of course with feedback from both group members and teachers. The research included in the paper is also done by me to put our findings in context. The only pieces I didn't write was Hot Deck explanation and I only gave feedback an added to the RNN part.
   
 
-### Task I worked on:  
+### Tasks I worked on:  
 
 ---  
 **Research:** 
@@ -271,7 +271,7 @@ The goal of our research project was to create a BMS imputation guideline for sc
 
 There are many imputation methods that have precedent in previous work for imputing time-series data. During our project, not all could be evaluated but some of the methods we have tried are Hot Deck (HD) and KNN. For the final paper, we selected four methods to keep things compact.  
 
-When looking at the results there is no method that is the best for a single gap type across all imputation targets. There is no consistent method that scores best on single gap size. With some exceptions, methods seem to be very much bound to the data scale they performed the best in.
+When looking at the results there is no method that is the best for a single gap size across all imputation targets. There is no consistent method that scores best on single gap size. With some exceptions, methods seem to be very much bound to the data scale they performed the best in.
 
 The results are very decisive when it comes to which imputation method is best for what data measurement scale. According to our results, RNN performs the best on interval data compared to other methods and HD is the best performer on both Ratio and Nominal scaled data.
 
@@ -285,6 +285,18 @@ The scenarios as described in the table below are combinations of data measureme
 |**Interval**|RNN|RNN|RNN|RNN|RNN|
 
 [**The values this table was based on can be found here**](/Research%20Project/Paper/Results%20Based%20on%20VE%20and%20RMSE.pdf)
+
+**Legend for reading the line graph & bar charts below**  
+🟦 = KNN (With the best K selected for each gap)  
+🟧 = LOCF  
+🟩 = RNN (RNN)   
+🟥 = Hot Deck (HD)
+
+*Line graph only*  
+🟦 = Reference data  
+Dashed 🟦 = Hot Deck --
+
+
 
 Outside the main conclusion several other smaller conclusions can be made based on the imputation results from our experiment. These smaller conclusions are:
 
@@ -311,13 +323,15 @@ When looking at the bar charts it can be seen that according to RMSE the perform
 
 ## Further research
 
-In future work, the focus of research should be less on evaluating imputation with metrics based on the error and more on the impact of forecasting using imputed data. The effect on forecasting performance ought to be evaluated as it can provide a more complete view of imputation performance. 
+Future research should focus on using the imputed data for forecast/predicting future power usage or other sensor data and seeing the impact each method has on its results. This would give researchers a real-world insight into the effect of imputation instead of it just being evaluated based on things such as error metrics.  
 
-The data sets used for this study contain only numerical data and no ordinal data. To get a full view of the imputation performance on text-based categorical data further research is required.
+The data sets that were used in our study contained only numerical data and no ordinal data. To get a full view of the imputation performance on text-based categorical data further research is required.
 
-The GRU RNN architecture used in the research had clear limitations based on how it was set up. To evaluate the full potential of imputation using RNN the architecture should be changed to an encoder-decoder sequential based design. This would remove the potential bias of imputation using its own imputed values.
+Our paper also talked about an imputation method’s ability to follow trends however, some of the methods included in the paper by nature couldn’t do this (e.g. LOCF). Future research should keep trend imputation into account and should then select methods for that goal accordingly. 
 
-To see if Hot Deck is truly a viable method for the imputation of BMS data more research will have to be done when the data sets aren't as similar. Since the buildings in this study are all in the same neighbourhood trends in power usage are very similar.
+The GRU RNN architecture used in our research had clear limitations based on how it was set up. To evaluate the full potential of BMS time-series imputation using RNN the architecture should be changed to an encoder-decoder sequential based design. This would remove the potential bias of imputation using its own imputed values.
+
+To see if Hot Deck is truly a viable method for the imputation of BMS data more research will have to be done when the data sets aren't as similar. Since the buildings in this study are all in the same neighbourhood trends in power usage are very similar. This might not apply to future research as well as it did in our paper and should therefore be evaluated further.
 
 ## Visualizations
 
@@ -416,6 +430,10 @@ https://doi.org/10.3390/s20205947
 |Regression| Algorithmic method that is used to predict numerical values. The algorithm tries to understand to understand the dependency relationship between data to be more accurate.|
 |Classification| Predictive model that is used to predict class labels using input data.|
 |Building Management System (BMS)| BMS also known as building automation systems are smart building systems that control things like solar panel power generation. BMS systems generate data that can be used to forecast future power usage so that efficiency can be improved in the future.|
+|Interval scale| Numerical data with order that has no true zero e.g. temperature in Celcius|
+|Ordinal scale|Categorical values that have order in them e.g. survey answers completely disagree - completely agree|
+|Ratio scale|Numerical data that has order and a true zero e.g. temperature in Kelvin |
+|Nominal scale| Categorical data that doesn't have order e.g. country or gender|
 
 [Back to the table of contents](#table-of-contents)
 
