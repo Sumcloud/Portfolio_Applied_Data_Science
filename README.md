@@ -264,9 +264,18 @@ For our paper we used various abbreviations to make things clearer a table expla
 
 ## Conclusion of our research  
 
-This paper proposes a guideline to impute BMS nZEB data based on gap size and different scales of measurement.. The problem with missing data in BMS is becoming a bigger problem in an era where buildings depend on data. Previous research has been done about imputing BMS time series data; this paper tries to build on that by creating a comprehensive guideline to follow for certain scenarios. To create a guideline 4 methods were chosen from previous literature: GRU RNN, Hot Deck, KNN algorithm and LOCF. During the research, imputing trends back into missing data became the focal point of this study which is why Variance Error (VE) was used instead of a more traditional metric like Root Mean Squared Error (RMSE). The guideline that resulted from this experiment is listed down in the table below. Performance was evaluated using both RMSE and VE but metrics concluded the same methods as best for each gap type and data measurement scale.
+**NOTE!: these conclusions might overlap with the paper, the conclusions are my own but since I wrote the conclusion with feedback and confirmations from Adrien and Albert they are naturally overlapping.**
 
-From the results of both VE and RMSE can be concluded that there is no single best imputation method for all gap sizes and measurement scales. The best method for a gap size is dependent on the measurement scale of the to be imputed data. No consistent crossover was found between the gap size and measurement scale as can be seen in the table.   
+The goal of our research project was to create a BMS imputation guideline for scenarios with different gap sizes and data scales. The conclusion of the paper resulted in the table below. 
+
+There are many imputation methods that have precedent in previous work for imputing time-series data. During our project, not all could be evaluated but some of the methods we have tried are Hot Deck (HD) and KNN. For the final paper, we selected four methods to keep things compact.  
+
+When looking at the results there is no method that is best for a single gap type across all imputation targets. There is no consistent method that scores best on single gap size. With some exceptions, methods seem to be very much bound to their own best data scales.
+
+The results are very decisive when it comes to which imputation method is best for what data measurement scale. According to our results, RNN performs the best on interval data compared to other methods and HD is the best performer on both Ratio and Nominal scaled data.
+
+The scenarios as described in the table below are combinations of data measurement scale and gap size. RMSE and VE both give the same result, so the table is representative of the recommendations as evaluated by both metrics.
+
 
 | Guideline table | Gap type 1 | Gap type 2 | Gap type 3 | Gap type 4 | Gap type 5 | 
 |----------|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
@@ -278,15 +287,24 @@ From the results of both VE and RMSE can be concluded that there is no single be
 
 Outside the main conclusion several other smaller conclusions can be made based on the imputation results from our experiment. These smaller conclusions are:
 
-- The RMSE results show that the imputations done in this study are poor when compared to previous literature.
-- HD tends to do better in the KNMI datasets compared to RNN. This might be due to there being more regularity in data and thus more similar trends. An interesting example of this in the KNMI temperature data where HD beats RNN by a small margin but in flow_temp it loses to RNN with a wide margin in both VE and RMSE. 
-  
-- RMSE and VE do not always align when it comes to accurately evaluating the ability to impute a trend back into the missing data. A good example of this is CO2 gapsizes 3 and 4, the RMSE is score is relatively close between RNN and HD while the VE score is far apart. In the image below it can be seen that HD is trying to impute a trend and RNN is imputing a more stable is imputed.<details>
-  <summary>Co2 gap size 4 visual</summary>
-  <img src="/Research%20Project/Paper/CO2%20Sensor%20Gap%204.png" alt="Co2 gap size 4 visual">
-</details>  
+- The RMSE results show that the imputations done in this study are poor when compared to previous literature. <details><summary>All RMSE scores</summary><img src="/Research%20Project/Paper/All%20RMSE.jpg"></details>
 
-- In the acheived results no strong link can be found between having multiple strong correlators and a good RMSE or VE score. Flow_temp had two strong correlators in heat pump power usage and return temperature and got good imputation results. Power and CO2 results however seem to contrast these findings, as power and co2 both had one or two decent to strong correlators but both got worse results. 
+- HD tends to do better in the KNMI datasets compared to RNN. This might be due to there being more regularity in data and thus more similar trends. An interesting example of this in the KNMI temperature data where HD beats RNN by a small margin but in flow_temp it loses to RNN with a wide margin in both VE and RMSE. In the image below you can see that even in interval data (which was the best data scale for RNN) HD comes close or beats RNN in KNMI data but drops off in the BMS data. 
+  <details>
+  <summary>Example of HD performance in KNMI vs BMS</summary>
+  <img src="/Research%20Project/Paper/Comparison%20Flow_temp%20and%20Temperature.jpg" alt = 'comparison KNMI and BMS'>
+  </details>  
+  
+- RMSE and VE do not always align when it comes to accurately evaluating the ability to impute a trend back into the missing data. A good example of this is CO2 gapsizes 3 and 4, the RMSE is score is relatively close between RNN and HD while the VE score is far apart.   
+When looking at the bar charts it can be seen that according to RMSE the performance of RNN and HD is way closer than the VE would suggest. But in the line graph below it can be seen that HD is trying to impute a trend and RNN is imputing a more stable is imputed. In this case RMSE heavily 'punishes' HD for imputing trends whilst RNN gets 'rewarded' for imputing a more stable value.  Don't get me wrong RMSE does what it is supposed to do here it rewards single prediction more than the overall trend but what can be said is that VE is the better indicator here.   <details>
+  <summary>Co2 gap size 4 visual</summary>
+  <img src="/Research%20Project/Paper/combine_images.jpg">  
+
+  <img src="/Research%20Project/Paper/CO2%20Sensor%20Gap%204.png" alt="Co2 gap size 4 visual">
+</details>
+  
+
+- In the acheived results no strong link can be found between having multiple strong correlators and a good RMSE or VE score. Flow_temp had two strong correlators in heat pump power usage and return temperature and got good imputation results. Power and CO2 results however seem to contrast these findings, as power and co2 both had one or two decent to strong correlators but both got worse results. In the image below the VE and RMSE are displayed and it can be seen that RNN performs worse on both power and CO2 compared to its performance in flow_temp and with HD. The amount of good correlators doesn't seem to be the reason of RNN's worse performance in ratio data when compared with interval scale data.<details><summary>CO2 Power and Flow_temp charts</summary><img src="/Research%20Project/Paper/Flow_temp%20Co2%20Power.jpg"></details>
 
 - In previous research, it was found the distribution to matter when training and imputing data across different units. To measure, the impact of this factor the Kurtosis and Skewness of both the training and imputation target were recorded. From our results, we can conclude that there was no consistent impact of a difference in Kurtosis or Skewness affecting our results. The CO2 sensor data had a high difference in both Kurtosis and Skewness and that might have affected the RNN somewhat. However, when looking at other features like flow_temp or power that same effect doesn’t show the same result. The difference in Kurtosis or Skewness can’t explain the worse performance of RNN on ratio data.
 
@@ -387,11 +405,16 @@ https://doi.org/10.3390/s20205947
 |Kurtosis|Statistical indicator of the peakedness in distribution of data. Data sets with a high Kurtosis value will be heavily tailed and ones with low Kurtosis values will be light tailed in their distribution.|
 |Skewness|Meassure of asymmetry in probability distribution about its mean|
 |Variance Error| The difference in variance present in original and imputed data|
-|Root Mean Squared Error|Common use imputation evaluation metric calculated by taking the square root of the mean squared error|
+|Root Mean Squared Error|Common use imputation evaluation metric calculated by taking the square root of the mean squared error. Advantage is that is in the scale of the data i.e data it is in Watts RMSE is in Watts.|
 |Time-series data|A series of observations indexed by a timestamp|
 |Data velocity|How quickly data is generated in our case supposedly every 5 minutes|
 |Machine learning|Systems that are able to learn without explicit instructions by using algorithms and other statistical values to make conclusion based on patterns observed in data.|
 |Neural Network|Algorithms that mimic the process of the human brain to recognize patterns in data sets.|
+|Underfitting| Situation where model doesn't perform well on training data (probably real world too.) and makes assumptions about data e.g. data is linear.|
+|Overfitting| Situation where model does well on training data but doesn't generalize well in real world data. Overfitted models also tend to be too sensitive.|
+|Regression| Algorithmic method that is used to predict numerical values. The algorithm tries to understand to understand the dependency relationship between data to be more accurate.|
+|Classification| Predictive model that is used to predict class labels using input data.|
+|Building Management System (BMS)| BMS also known as building automation systems are smart building systems that control things like solar panel power generation. BMS systems generate data that can be used to forecast future power usage so that efficiency can be improved in the future.|
 
 [Back to the table of contents](#table-of-contents)
 
