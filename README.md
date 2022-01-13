@@ -59,7 +59,7 @@ This chapter will cover the obligatory criteria as stated in the evaluation rubr
 14. [**Manipulating Time Series Data in Python**](https://www.datacamp.com/statement-of-accomplishment/course/4408c464b2f72c80b251a7dd9283d78904d9365a)
 15. [**Time Series Analysis in Python**](https://www.datacamp.com/statement-of-accomplishment/course/b2116ff973d5f0d97520a8415189bca1db44879a)
 16. [**Joining Data with pandas**](/Datacamp%20Certificates%20Backup/Progress_Joining_Data_with_pandas.png)
-17. [**Machine Learning for Time Series Data in Python**](/Datacamp%20Certificates%20Backup/Machine%20Learning%20for%20Time%20Sereis%20Data%20in%20Python.png)  
+17. [**Machine Learning for Time Series Data in Python**](https://www.datacamp.com/statement-of-accomplishment/course/ba3520345411ba3d46f50eb37b683ee9e595ffd5)  
 
 [*Back up of certificates*](/Datacamp%20Certificates%20Backup/)
 
@@ -77,7 +77,8 @@ The final research paper was my biggest contribution as 90% of it was written by
 ### Task I worked on:  
 
 ---  
-**Research:**  
+**Research:** 
+Explained in [communication](#subject-3-communication) and [research project](#subject-1-research-project)
 
 - [Research proposal](/Research%20Project/Research%20Proposal/Research_proposal_Applied_Data_Science_project_IMP.pdf)
 - [Final Word version research paper in PDF](/Research%20Project/Paper/Final%20Version%20PDF.pdf) (Wrote everything except Hot Deck and RNN explanation)
@@ -91,7 +92,7 @@ The final research paper was my biggest contribution as 90% of it was written by
   - [Version 28-12-2021](/Research%20Project/Paper/Version%2028-12-2021%201400%20JUL.pdf)
   - [Version 13-12-2021](/Research%20Project/Paper/Version-13-12-2021.pdf)
   
-**Communication:**  
+**Communication:**  Explained in [communication](#subject-3-communication)
 
 - [First internal presentation](/Presentations/Internal%20Presentation%20week%202.pdf)
 - [Internal presentation November 8](Presentations/Internal_November_8.pdf)
@@ -270,7 +271,7 @@ The goal of our research project was to create a BMS imputation guideline for sc
 
 There are many imputation methods that have precedent in previous work for imputing time-series data. During our project, not all could be evaluated but some of the methods we have tried are Hot Deck (HD) and KNN. For the final paper, we selected four methods to keep things compact.  
 
-When looking at the results there is no method that is best for a single gap type across all imputation targets. There is no consistent method that scores best on single gap size. With some exceptions, methods seem to be very much bound to their own best data scales.
+When looking at the results there is no method that is the best for a single gap type across all imputation targets. There is no consistent method that scores best on single gap size. With some exceptions, methods seem to be very much bound to the data scale they performed the best in.
 
 The results are very decisive when it comes to which imputation method is best for what data measurement scale. According to our results, RNN performs the best on interval data compared to other methods and HD is the best performer on both Ratio and Nominal scaled data.
 
@@ -492,7 +493,7 @@ Parts I wrote for the research paper (I wrote these pieces by myself 100%):
 
 - Abstract
 - Introduction
-- Methodology (Except Hot Deck and RNN (I only rephrased the RNN and added Correlation part))
+- Methodology (Except for Hot Deck and RNN (I only rephrased the RNN and added Correlation part))
 - Results and discussion
 - Conclusion
 
