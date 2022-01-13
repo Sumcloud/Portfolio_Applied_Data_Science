@@ -660,11 +660,10 @@ permission to include their feedback in this portfolio.
   <summary>Ramon van der Elst </summary>  
 
   **+** Good at presenting especially the external presentations  
-  **+** Good critical feedback on paper  
-  **-** Didn't ask for help  
+  **+** Good critical feedback on paper    
   **-** Passive during meetings group only and with teachers
 
-  **Explanation:** Ramon's part for this project was writing the paper and researching previous studies to make writing the paper and the research process easier. During the last month a lot had to be done on his earliest draft of the paper, due to the fact that he had never asked for feedback from us or the teachers. The research he did also didn't overlap quite well to what was required in terms of technical aspects of the paper. This was largely due to him not asking questions for technical processes that the other group members were working on. This also showed in his paper where some clear misconceptions and lack knowledge of ongoing technical processes were apparent. In the last weeks I rewrote his first version and added some papers that I found during research. His feedback has been important for the improvement of the paper and his presentation skills were also a big help to communicating the goals, processes and results of our research. 
+  **Explanation:** Ramons feedback has been vital to the paper. Because he did a lot of research I would have liked him to be more vocal as his input based on previous literature could have helped us along faster. 
 </details>
 
 [Back to table of contents](#table-of-contents)
