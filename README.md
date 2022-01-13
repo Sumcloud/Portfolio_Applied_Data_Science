@@ -503,7 +503,7 @@ To get on the same line with each other in the group and with the client and tea
 
 ### Research paper
 
-For the paper I wrote the following: Introduction, Abstract, Methodology (Except for Hot Deck and Recurrent Neural networks), Results and Discussion. I adjusted to feedback given by teachers especially Baldiri gave a lot of feedback. He shortened my sentences by large amounts and I adapted to his feedback. 
+For the paper I wrote the following: Abstract, Introduction, Methodology (Except for Hot Deck and Recurrent Neural networks), Results and Discussion and the conclusion. I adjusted to feedback given by teachers especially Baldiri gave a lot of feedback. He shortened my sentences by large amounts and I adapted to his feedback. 
 
 During the Christmas break I sent versions of the paper to individual groupmembers (mostly Ramon van der Elst) for feedback. The research paper was also uploaded to google drive with every iteration to get as much feedback as possible. The last versions were edited in drive only as that reduced confusion as to what was the most recent version. 
 
